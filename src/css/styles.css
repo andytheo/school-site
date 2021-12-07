@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.logo-img {
+  height: 50px;
+  width: 60px;
+}
+
+/* .intro-text {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  top: 50;
+  right: 0;
+  color: white;
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin: 20% 0;
+  font-weight: bold;
+} */
+
+.intro-img {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  bottom: 280;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  margin: 70px auto 0;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ABOUT */
+.card-img {
+  height: 250px;
+  width: 50px;
+}
+
+.title {
+  text-align: center;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.centered {
+  text-align: center;
+  margin: 70px auto;
+}
+
+.intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../neonbrand-zFSo6bnZJTw-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  /* background-attachment: fixed; */
+}
+
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../cdc-GDokEYnOfnE-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  /* height: 400px; */
+  background-attachment: fixed;
+}
+
+
+.underline {
+  /* border-bottom: 2px solid currentColor; */
+  text-decoration: underline;
+}
+
+/* MOTTO */
+/* .circle {
+  background: #fff;
+  border: 0.5em solid #ff0000;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.4em 0 0 #ff2442;
+  height: 23em;
+  width: 23em;
+  margin: 50px 0 0 -200px;
+  position: relative;
+  padding: 20px;
+  z-index: 2;
+}
+
+.circle-content {
+  hyphens: auto;
+  margin: 0.75em;
+  text-align: center;
+}
+
+.circle-2 {
+  background: #fff;
+  border: 0.4em solid rgb(212, 30, 30);
+  border-radius: 50%;
+  box-shadow: 0.1em 0 0 0.1em #f0e444;
+  height: 21em;
+  width: 21em;
+  margin: 280px 0 0 -110px;
+  padding: 50px 5px 0;
+  position: relative;
+  right: 0;
+  z-index: 1;
+}
+
+.circle-content-2 {
+  hyphens: auto;
+  margin: 0.75em;
+  text-align: center;
+}
+
+.circle-3 {
+  background: #fff;
+  border: 0.1875em solid rgb(222, 236, 19);
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 #ff2442;
+  height: 21.5em;
+  width: 21.5em;
+  margin: 450px 0 0 -580px;
+  padding: 50px 5px 0;
+  position: relative;
+  right: 0;
+}
+
+.circle-content-3 {
+  hyphens: auto;
+  margin: 0.75em;
+  text-align: center;
+}
+
+@supports (shape-outside: circle(50%)) {
+  .circle-content,
+  .circle-content-2,
+  .circle-content-2 {
+    height: 100%;
+    margin: 0;
+  }
+
+  .circle::before,
+  .circle-content::before,
+  .circle-2::before,
+  .circle-content-2::before,
+  .circle-3::before,
+  .circle-content-3::before {
+    content: "";
+    height: 100%;
+    width: 50%;
+  }
+
+  .circle::before,
+  .circle-2::before,
+  .circle-2::before {
+    float: left;
+    shape-outside: polygon(
+      0 0,
+      100% 0,
+      60% 4%,
+      40% 10%,
+      20% 20%,
+      10% 28.2%,
+      5% 34.4%,
+      0 50%,
+      5% 65.6%,
+      10% 71.8%,
+      20% 80%,
+      40% 90%,
+      60% 96%,
+      100% 100%,
+      0 100%
+    );
+  }
+
+  .circle-content::before,
+  .circle-content-2::before,
+  .circle-content-3::before {
+    float: right;
+    shape-outside: polygon(
+      100% 0,
+      0 0,
+      40% 4%,
+      60% 10%,
+      80% 20%,
+      90% 28.2%,
+      95% 34.4%,
+      100% 50%,
+      95% 65.6%,
+      90% 71.8%,
+      80% 80%,
+      60% 90%,
+      40% 96%,
+      0 100%,
+      100% 100%
+    );
+  }
+}
+
+.vision-statement {
+  font-size: 11px;
+  text-align: left;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.mission-statement {
+  font-size: 11px;
+  text-align: left;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.core-values {
+  font-size: 11px;
+  text-align: left;
+  text-align: justify;
+  margin-top: 20px;
+} */
+
+/* NAVBAR DROPDOWN */
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+/* Admissions */
+.admission-process {
+  background-color: blue;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+.steps-to-apply {
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  color: rgba(7, 11, 139, 0.8);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 300px) and (max-width: 700px) {
+  .centered {
+    align-items: center;
+    margin: 70px 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .intro-text {
+    font-size: 150%;
+  }
+}
