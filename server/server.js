@@ -1,47 +1,26 @@
+const dotenv = require('dotenv');
 const express = require("express");
-const morgan = require("morgan");
-const bodyParser = require("body-parser");
-const cors = require('cors');
-const connectDB = require('./config/db');
+const nodes = require('./data/node');
+const userRoutes = require('./routes/userRoutes');
+const connectDb = require('./config/db');
+dotenv.config();
 
 const app = express();
+connectDb();
+app.use(express.json());
 
-// Config .env to ./config/config.env
-require("dotenv").config({
-  path: "./config/config.env"
-});
+app.get("/", (req, res) => {
+  res.send("API running")
+})
 
-// Connect to Database
-connectDB()
+app.get("/api/nodes", (req, res) => {
+  res.json(nodes)
+})
 
+app.use("/api/users", userRoutes);
 
-// Config bodyParser
-app.use(bodyParser.json());
-
-// Config for only development
-if (process.env.NODE_ENV === "development") {
-  app.use(cors({
-    origin: process.env.CLIENT_URL
-  }));
-
-  app.use(morgan("dev"));
-}
-
-// Load all routes
-const authRouter = require("./routes/auth.route");
-
-// Use routes
-app.use("/api/", authRouter);
-
-app.use( (req, res, next) => {
-  res.status(404).json({
-    success: false,
-    message: "Page Not Found"
-  })
-});
-
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}`);
+  console.log(`Server started on PORT ${PORT}`);
 })

@@ -5,6 +5,7 @@ import Contacts from './Contact';
 import About from './About';
 import Admissions from './Admissions';
 import Portal from './Portal';
+import Register from './components/register/Register';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/admissions" element={<Admissions/>}/>
         <Route exact path="/contact" element={<Contacts/>}/>
         <Route exact path="/portal" element={<Portal/>}/>
+        <Route exact path="/register" element={<Register/>}/>
       </Routes>
     </div>
   );
