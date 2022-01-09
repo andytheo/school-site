@@ -2,6 +2,7 @@
   "name": "pecuty-royal",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://127.0.0.1:5000",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
@@ -27,9 +28,13 @@
     "react-dom": "^17.0.2",
     "react-facebook-login": "^4.1.1",
     "react-google-login": "^5.2.2",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
     "react-toastify": "^8.1.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
