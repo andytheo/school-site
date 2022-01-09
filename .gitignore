@@ -39,8 +39,7 @@ bower_components
 build/Release
 
 
-# config
-config/
+
 
 # Dependency directories
 node_modules/
