@@ -1,11 +1,13 @@
 {
   "name": "pecutyroyalmain",
   "version": "1.0.0",
-  "description": "",
+  "description": "site",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/andytheo/school-site/issues"
   },
-  "homepage": "https://github.com/andytheo/school-site#readme"
+  "homepage": "https://github.com/andytheo/school-site#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "path": "^0.12.7"
+  }
 }
