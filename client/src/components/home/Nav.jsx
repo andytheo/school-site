@@ -12,6 +12,7 @@ import {
   MDBNavbarBrand,
   MDBDropdown
 } from 'mdb-react-ui-kit';
+import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Nav() {
   const [showNavCentred, setShowNavCentred] = useState(false);
@@ -28,7 +29,7 @@ export default function Nav() {
           aria-label='Toggle navigation'
           onClick={() => setShowNavCentred(!showNavCentred)}
         >
-          <MDBIcon icon='bars' fas />
+          <MenuIcon />
         </MDBNavbarToggler>
 
         <MDBCollapse navbar show={showNavCentred} center id='navbarCenteredExample'>

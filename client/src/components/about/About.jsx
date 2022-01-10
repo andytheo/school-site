@@ -40,9 +40,9 @@ const About = () => {
               </MDBRow>
             </MDBContainer>
           </section>
-
+          <hr style={{margin: '0 70px'}}/>
           <section className="container text-center">
-            <p className="h3 text-center">Features</p>
+            <p className="h3 text-center mt-5">Features</p>
             <MDBRow className='row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-4 row-cols-xs-12 g-4 mt-2'>
               <MDBCol>
                 <HomeWorkIcon style={{fontSize: 80}}/>
@@ -70,7 +70,7 @@ const About = () => {
               </MDBCol>
             </MDBRow>
           </section>
-
+          <hr style={{margin: '0 70px'}}/>
           <section className="container text-center mt-5 mb-5">
             <MDBRow className='row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-2 row-cols-xs-12 g-4 mt-2'>
               <MDBCol>
@@ -85,7 +85,7 @@ const About = () => {
 
               <MDBCol>
                 <div style={{backgroundColor: "lightgrey"}}>
-                <p className="h4">Our Core Values</p>
+                <p className="h4 mb-4">Our Core Values</p>
                 <ul className="core-values">
                   <li>Integrity</li>
                   <li>Honesty</li>

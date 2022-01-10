@@ -14,7 +14,7 @@ export default function App() {
             <div className='text-white'>
               <p className="display-3 fw-bold" style={{marginTop: "10%"}}>PECUTY ROYAL INT'L ACADEMY</p>
               <p>The perfect learning environment for your child.</p>
-              <button className="btn btn-rounded btn-lg btn-success mt-5">Enrol Now</button>
+              <button className="btn btn-rounded btn-lg mt-5" style={{backgroundColor: "#161E54", color: "white"}}>Enroll Now</button>
             </div>
           </div>
         </div>

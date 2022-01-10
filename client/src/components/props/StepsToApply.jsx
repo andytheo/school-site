@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import {MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from 'mdb-react-ui-kit';
 

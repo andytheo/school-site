@@ -2,16 +2,15 @@ import React from 'react';
 import Nav from '../home/Nav';
 import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardHeader, MDBInput, MDBBtn } from 'mdb-react-ui-kit';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-
+import Footer from "../home/Footer";
 // import Header from '../home/Header';
 
 const Portal = () => {
     return (
         <div>
             <Nav />
-            <header>
-              <div className='p-5 text-center bg-image portal-background'>
-                <MDBCard background='light' className='mt-5 portal-center' style={{ width: '20rem', alignItems: 'center'}}>
+              <div className='p-5 text-center portal-background'>
+                <MDBCard background='light' className='mt-5 portal-center' style={{ margin: '0 auto'}}>
 
                  <MDBCardBody>
                    <MDBCardTitle><AccountCircleIcon style={{fontSize: "5rem"}} className="mb-3 mt-3" /></MDBCardTitle>
@@ -27,7 +26,7 @@ const Portal = () => {
                  </MDBCardBody>
                </MDBCard>
               </div>
-            </header>
+              <Footer />
         </div>
     )
 }
