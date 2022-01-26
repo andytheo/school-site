@@ -1,12 +1,13 @@
 // import React, { Component } from "react";
 import React from "react";
 import { MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
-import Nav from '../home/Nav';
+import AppNavBar from '../Navbar/Nav';
 import Footer from '../home/Footer';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 
+import Nav from '../home/Nav';
 import TransparentHeader from '../props/TransparentHeader';
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

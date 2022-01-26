@@ -32,12 +32,13 @@ function App() {
       {/* <Home /> */}
       <Routes>
         <Route exact path="/" element={<Home/>}/>
+        {/* <Route exact path="/nav" element={<AppNavBar/>}/> */}
         <Route exact path="/about" element={<About/>}/>
         <Route exact path="/admissions" element={<Admissions/>}/>
         <Route exact path="/contact" element={<Contacts/>}/>
         <Route exact path="/portal" element={<Portal/>}/>
         <Route exact path="/login" element={<LoginScreen/>}/>
-        <Route exact path="/login" element={<LoginScreen/>}/>
+        {/* <Route exact path="/login" element={<LoginScreen/>}/> */}
         <Route
         exact
         path='/admin'

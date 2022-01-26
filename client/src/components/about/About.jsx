@@ -1,7 +1,8 @@
 import React from 'react'
-import Nav from '../home/Nav';
+import AppNavBar from '../Navbar/Nav';
 import Footer from '../home/Footer';
 
+import Nav from '../home/Nav';
 import { MDBContainer, MDBRow, MDBCol} from 'mdb-react-ui-kit';
 import SchoolIcon from '@mui/icons-material/School';
 import ClassIcon from '@mui/icons-material/Class';
