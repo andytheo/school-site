@@ -2,7 +2,7 @@
 
 
 
-* {
+body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -51,11 +51,21 @@
   /* background-attachment: fixed; */
 }
 
+.our-classes {
+  text-decoration: none;
+  color: black;
+}
+
+.our-classes:hover {
+  color: black;
+  opacity: .9;
+}
+
 .testimonials {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../cdc-GDokEYnOfnE-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 0.7)) , url("../cdc-GDokEYnOfnE-unsplash.jpg");
   background-position: center;
   background-size: cover;
-  /* height: 400px; */
+  /* height: 350px; */
   background-attachment: fixed;
 }
 
@@ -89,6 +99,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
   width: 35px;
   height: 35px;
   text-align: center;
+  font-size: 30px;
   color: rgba(7, 11, 139, 0.8);
 }
 
@@ -109,11 +120,58 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 }
 
 .objective-list li {
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 10px;
     list-style-type: circle;
+    line-height: 2;
  }
 
+ .reviews {
+   font-size: 20px;
+   text-align: justify;
+   font-weight: lighter;
+ }
+
+
+/* FOOTER */
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link:hover {
+  color: #FFD523;
+}
+
+
+/* CLASSES  */
+.creche-header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/segun-osunyomi-3BztcJxliEM-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.nursery-header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/cdc-GDokEYnOfnE-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.primary-header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/omotayo-kofoworola-W9OQnSdsv6A-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.secondary-header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/ben-white-83tkHLPgg2Q-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 700px) {

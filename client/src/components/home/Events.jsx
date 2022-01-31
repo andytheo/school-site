@@ -15,7 +15,7 @@ const Events = () => {
                 <MDBBtn rounded className="mt-3 mb-4 w-85" outline color="black" style={{height: 70, backgroundColor: "#ECD662"}}>04 June</MDBBtn>
                 <div>
                   <p className="h5 mb-2">Graduation Ceremony</p>
-                  <p>Aenean molestie eros odio, et viverra ante efficitur et. Aenean finibus arcu vitae lacinia rutrum.</p>
+                  <p>Our graduation ceremmony for this year comes up on the 4th of June.</p>
                 </div>
               </MDBCol>
 
@@ -23,7 +23,7 @@ const Events = () => {
                 <MDBBtn rounded className="mt-3 mb-4 w-85" outline color="black" style={{height: 70, backgroundColor: "#C8E3D4"}}>22 October</MDBBtn>
                 <div>
                   <p className="h5">Book Fair</p>
-                  <p>Aenean molestie eros odio, et viverra ante efficitur et. Aenean finibus arcu vitae lacinia rutrum.</p>
+                  <p>We seek to develop a deep passion for studying. As such, we're inviting students and parents to this event.</p>
                 </div>
               </MDBCol>
 
@@ -31,7 +31,7 @@ const Events = () => {
                 <MDBBtn rounded className="mt-3 mb-4 w-85" outline color="black" style={{height: 70, backgroundColor: "#FFB396"}}>12 December</MDBBtn>
                 <div>
                   <p className="h5">Cultural Party</p>
-                  <p>Aenean molestie eros odio, et viverra ante efficitur et. Aenean finibus arcu vitae lacinia rutrum.</p>
+                  <p>As part of our end of year celebrations, we will have a cultural party where students can showcase their diverse cultures.</p>
                 </div>
               </MDBCol>
 

@@ -12,25 +12,30 @@ export default function WhyChooseUs() {
           <MDBCarouselInner>
             <MDBCarouselItem className='active'>
               <MDBCarouselElement />
-              <blockquote class="blockquote">
-                <p className="mb-3 w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                  Amet sit consectetur adipiscing elit. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table.
+              <blockquote className="blockquote">
+                <p className="mb-3 w-75 reviews">
+                  Finding a good school was so difficult for me when I moved to Abuja,
+                  through a friend, I was able to enroll my child in the school and it's
+                  a great choice for me.
                 </p>
-                <footer className="blockquote-footer w-75">John Doe</footer>
+                <footer className="blockquote-footer w-75">Bisola Ajayi</footer>
+              </blockquote>
+            </MDBCarouselItem>
+
+            <MDBCarouselItem>
+              <MDBCarouselElement />
+              <blockquote class="blockquote">
+                <p className="mb-3 w-75  reviews">
+                  My daughter has shown remarkable progress since shooling here. Kudos!
+                </p>
+                <footer className="blockquote-footer w-75">Obieze Amadi</footer>
               </blockquote>
             </MDBCarouselItem>
             <MDBCarouselItem>
               <MDBCarouselElement />
               <blockquote class="blockquote">
-                <p className="mb-3 w-75">Lorem ipsum dolor sit amet ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table. Consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer className="blockquote-footer w-75">Jane Doe</footer>
-              </blockquote>
-            </MDBCarouselItem>
-            <MDBCarouselItem>
-              <MDBCarouselElement />
-              <blockquote class="blockquote">
-                <p className="mb-3 w-75">Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer className="blockquote-footer w-75">John Smith</footer>
+                <p className="mb-3 w-75  reviews">A school which instills good behaviour, good morals and good etiquette in her students.</p>
+                <footer className="blockquote-footer w-75">Stella Okafor</footer>
               </blockquote>
             </MDBCarouselItem>
           </MDBCarouselInner>
@@ -43,15 +48,13 @@ export default function WhyChooseUs() {
 
         <MDBAccordion flush initialActive='flush-collapse1'>
           <MDBAccordionItem collapseId='flush-collapse1' headerTitle='Great Teachers'>
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+            At Pecuty Royal, we have qualified teachers to provide quality education to students.
           </MDBAccordionItem>
-          <MDBAccordionItem collapseId='flush-collapse2' headerTitle='Safe Environment'>3 wolf
-            moon officia aute, non cupidatat skateboard dolor brunch.  raw denim
-            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <MDBAccordionItem collapseId='flush-collapse2' headerTitle='Safe Environment'>
+            A truly safe environment for your children, we keep security as a top priority.
           </MDBAccordionItem>
-          <MDBAccordionItem collapseId='flush-collapse3' headerTitle='Standard Curriculum'>Nihil anim keffiyeh helvetica,
-            craft beer labore wes anderson cred nesciunt sapiente ea
-            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table.
+          <MDBAccordionItem collapseId='flush-collapse3' headerTitle='Standard Curriculum'>
+            Our Curriculum is standard and it is approved by the Ministry of Education.
           </MDBAccordionItem>
         </MDBAccordion>
 

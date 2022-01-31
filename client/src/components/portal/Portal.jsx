@@ -27,7 +27,6 @@ const Portal = () => {
                  </MDBCardBody>
                </MDBCard>
               </div>
-              <Footer />
         </div>
     )
 }

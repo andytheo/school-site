@@ -13,7 +13,7 @@ const StepsToApply = (props) => {
       <MDBCardBody>
         <MDBRow>
           <MDBCol md='3' className='col-example'>
-            <MDBCardTitle className="display-5 steps-to-apply">{props.number}</MDBCardTitle>
+            <MDBCardTitle className="steps-to-apply">{props.number}</MDBCardTitle>
           </MDBCol>
           <MDBCol md='9' className='col-example'>
             <MDBCardText>

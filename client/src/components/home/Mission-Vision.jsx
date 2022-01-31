@@ -14,7 +14,7 @@ export default function MissionVision() {
 
     <section className="container">
       <div className="text-center text-dark h3 mt-4 mb-5 underline">Objectives</div>
-      <MDBContainer className="text-dark">
+      <MDBContainer className="text-dark" data-aos="fade-up">
       <MDBRow>
   <MDBCol size='12' xs='10' sm='12' md='6' lg='6' className='col-example mb-3'>
     <p className="text-center h3 mb-3 underline">Mission Statement</p>
@@ -32,6 +32,7 @@ export default function MissionVision() {
     </ul>
   </MDBTypography>
   </MDBCol>
+
   <MDBCol size='12' sm='12' xs='12' md='6' className='col-example'>
     <p className="text-center h3 mb-3 underline">Vision Statement</p>
     <ul className="objective-list">

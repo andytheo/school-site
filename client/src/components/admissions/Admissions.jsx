@@ -26,17 +26,17 @@ const Admissions = () => {
         <p className="h3 mb-4">How To Apply</p>
       <StepsToApply
         number="1"
-        text="Some quick example text to build on the card title and make up the bulk of the card's content."
+        text="Download an enrollment form online or visit to school."
        />
        <br />
        <StepsToApply
          number="2"
-         text="Some quick example text to build on the card title and make up the bulk of the card's content."
+         text="Pay the enrollment fees and fill in students' full information."
         />
         <br />
         <StepsToApply
           number="3"
-          text="Some quick example text to build on the card title and make up the bulk of the card's content."
+          text="Submit the filled form and wait for decision on students' acceptance."
          />
       </MDBCol>
     </MDBRow>
