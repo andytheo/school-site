@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e50212c.chunk.css",
-    "main.js": "/static/js/main.ef872372.chunk.js",
-    "main.js.map": "/static/js/main.ef872372.chunk.js.map",
+    "main.css": "/static/css/main.63a1136f.chunk.css",
+    "main.js": "/static/js/main.f2f7e89c.chunk.js",
+    "main.js.map": "/static/js/main.f2f7e89c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dea39687.js",
     "runtime-main.js.map": "/static/js/runtime-main.dea39687.js.map",
     "static/css/2.a2bc7d03.chunk.css": "/static/css/2.a2bc7d03.chunk.css",
-    "static/js/2.34dc93f3.chunk.js": "/static/js/2.34dc93f3.chunk.js",
-    "static/js/2.34dc93f3.chunk.js.map": "/static/js/2.34dc93f3.chunk.js.map",
+    "static/js/2.190e3ce1.chunk.js": "/static/js/2.190e3ce1.chunk.js",
+    "static/js/2.190e3ce1.chunk.js.map": "/static/js/2.190e3ce1.chunk.js.map",
     "static/js/3.fcc0431f.chunk.js": "/static/js/3.fcc0431f.chunk.js",
     "static/js/3.fcc0431f.chunk.js.map": "/static/js/3.fcc0431f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a2bc7d03.chunk.css.map": "/static/css/2.a2bc7d03.chunk.css.map",
-    "static/css/main.0e50212c.chunk.css.map": "/static/css/main.0e50212c.chunk.css.map",
-    "static/js/2.34dc93f3.chunk.js.LICENSE.txt": "/static/js/2.34dc93f3.chunk.js.LICENSE.txt",
-    "static/js/main.ef872372.chunk.js.LICENSE.txt": "/static/js/main.ef872372.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/static/media/neonbrand-zFSo6bnZJTw-unsplash.bbc5dd57.jpg",
+    "static/css/main.63a1136f.chunk.css.map": "/static/css/main.63a1136f.chunk.css.map",
+    "static/js/2.190e3ce1.chunk.js.LICENSE.txt": "/static/js/2.190e3ce1.chunk.js.LICENSE.txt",
+    "static/js/main.f2f7e89c.chunk.js.LICENSE.txt": "/static/js/main.f2f7e89c.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/static/media/segun-osunyomi-3BztcJxliEM-unsplash.4faabeb5.jpg",
     "static/media/face-3.jpg": "/static/media/face-3.62232de2.jpg",
     "static/media/photo-1431578500526-4d9613015464.jpeg": "/static/media/photo-1431578500526-4d9613015464.0c528dc7.jpeg",
     "static/media/reactlogo.png": "/static/media/reactlogo.55f6660b.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.dea39687.js",
     "static/css/2.a2bc7d03.chunk.css",
-    "static/js/2.34dc93f3.chunk.js",
-    "static/css/main.0e50212c.chunk.css",
-    "static/js/main.ef872372.chunk.js"
+    "static/js/2.190e3ce1.chunk.js",
+    "static/css/main.63a1136f.chunk.css",
+    "static/js/main.f2f7e89c.chunk.js"
   ]
 }
