@@ -4,7 +4,7 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 export default function About() {
   return (
-    <section className="container mb-5" style={{margin: "80px 0",height: 400}}>
+    <section className="container mb-5" style={{margin: "80px 0"}}>
       <MDBContainer className="text-dark">
           <MDBRow className="mb-2 d-flex justify-content-center">
             <MDBCol size='md' data-aos="fade-up" data-aos-duration="1000" className='mx-5 mb-2 col-example lh-lg' style={{width: 500, textAlign: "justify"}}>

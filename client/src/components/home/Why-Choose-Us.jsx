@@ -26,7 +26,9 @@ export default function WhyChooseUs() {
               <MDBCarouselElement />
               <blockquote class="blockquote">
                 <p className="mb-3 w-75  reviews">
-                  My daughter has shown remarkable progress since shooling here. Kudos!
+                  My daughter has shown remarkable progress since joining the school.
+                  I've seen changes in both her acadmics and social life. Good job,
+                  Pecuty Royal Academy!
                 </p>
                 <footer className="blockquote-footer w-75">Obieze Amadi</footer>
               </blockquote>
@@ -34,7 +36,9 @@ export default function WhyChooseUs() {
             <MDBCarouselItem>
               <MDBCarouselElement />
               <blockquote class="blockquote">
-                <p className="mb-3 w-75  reviews">A school which instills good behaviour, good morals and good etiquette in her students.</p>
+                <p className="mb-3 w-75  reviews">A school which instills good behaviour, good
+                  morals and good etiquette and poise in her students. Pecuty Royal Academy is a true model
+                  to students.</p>
                 <footer className="blockquote-footer w-75">Stella Okafor</footer>
               </blockquote>
             </MDBCarouselItem>
