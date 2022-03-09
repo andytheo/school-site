@@ -65,7 +65,7 @@ export default function Nav() {
           </MDBNavbarNav>
         </MDBCollapse>
 
-        <div className="d-none d-sm-none d-lg-block d-xl-block">contact@pecutyroyal.com<br />+234(0)8067881007</div>
+        <div className="d-none d-sm-none d-lg-block d-xl-block">contact@pecutyroyal.com<br />08067881007</div>
 
       </MDBContainer>
     </MDBNavbar>
