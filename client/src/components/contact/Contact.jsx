@@ -16,7 +16,7 @@ import TransparentHeader from '../props/TransparentHeader';
 export default function Contact() {
   return (
     <div>
-    <Nav />
+    <AppNavBar />
     <TransparentHeader
       text="Contact Us"
     />

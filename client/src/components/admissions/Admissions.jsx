@@ -8,7 +8,7 @@ import Footer from '../home/Footer';
 import Nav from '../home/Nav';
 const Admissions = () => {
   return (<div>
-    <Nav />
+    <AppNavBar />
     <TransparentHeader
       text="Admission Process"
     />

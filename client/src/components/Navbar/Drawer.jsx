@@ -12,15 +12,18 @@ import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import StarBorder from '@mui/icons-material/StarBorder';
-import SendIcon from '@mui/icons-material/Send';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
+import SchoolIcon from '@mui/icons-material/School';
+import HomeIcon from '@mui/icons-material/Home';
+import InfoIcon from '@mui/icons-material/Info';
+import LoginIcon from '@mui/icons-material/Login';
+import CallIcon from '@mui/icons-material/Call';
 import {Link} from "react-router-dom";
 
 
 
 const useStyles = makeStyles({
   list: {
-  width: 250
+  width: 300
 },
 fullList: {
   width: "auto"
@@ -49,33 +52,33 @@ export default function DrawerComponent() {
               open={openDrawer}
               classes={{ paper: classes.paper }}
               >
-              <List style={{ width: "50vw"}}>
+              <List style={{ width: "250px"}}>
 
 
-              <ListItemButton>
+              <ListItemButton to='/' component={Link}>
                 <ListItemIcon>
-                  <SendIcon style={{color: "gold"}}/>
+                  <HomeIcon style={{color: "gold"}}/>
                 </ListItemIcon>
-                <ListItemText primary="Home" style={{color: "white"}} to='/' component={Link}/>
+                <ListItemText primary="Home" style={{color: "white"}}/>
               </ListItemButton>
 
-                <ListItemButton>
+                <ListItemButton to='/about' component={Link}>
                   <ListItemIcon>
-                    <SendIcon style={{color: "gold"}}/>
+                    <InfoIcon style={{color: "gold"}}/>
                   </ListItemIcon>
-                  <ListItemText primary="About" style={{color: "white"}} to='/about' component={Link}/>
+                  <ListItemText primary="About" style={{color: "white"}} />
                 </ListItemButton>
 
                 <ListItemButton onClick={handleClick}>
                   <ListItemIcon>
-                    <InboxIcon style={{color: "gold"}} />
+                    <SchoolIcon style={{color: "gold"}} />
                   </ListItemIcon>
-                  <ListItemText primary="Admissions" style={{color: "white"}} to='/admissions' component={Link}/>
+                  <ListItemText primary="Admissions" style={{color: "white"}} />
                   {open ? <ExpandLess /> : <ExpandMore />}
                 </ListItemButton>
                 <Collapse style={{color: "white"}} in={open} timeout="auto" unmountOnExit>
                   <List component="div" disablePadding>
-                    <ListItemButton sx={{ pl: 4 }}>
+                    <ListItemButton sx={{ pl: 4 }} to='/admissions' component={Link}>
                       <ListItemIcon>
                         <StarBorder style={{color: "gold"}} />
                       </ListItemIcon>
@@ -93,22 +96,22 @@ export default function DrawerComponent() {
                   </List>
                 </Collapse>
 
-                <ListItemButton>
+                <ListItemButton to='/contact' component={Link}>
                   <ListItemIcon>
-                    <SendIcon style={{color: "gold"}}/>
+                    <CallIcon style={{color: "gold"}}/>
                   </ListItemIcon>
-                  <ListItemText primary="Contact" style={{color: "white"}} to='/contact' component={Link}/>
+                  <ListItemText primary="Contact" style={{color: "white"}}/>
                 </ListItemButton>
 
-                <ListItemButton>
+                <ListItemButton to='/portal' component={Link}>
                   <ListItemIcon>
-                    <SendIcon style={{color: "gold"}}/>
+                    <LoginIcon style={{color: "gold"}}/>
                   </ListItemIcon>
-                  <ListItemText primary="Portal" style={{color: "white"}} to='/portal' component={Link}/>
+                  <ListItemText primary="Portal" style={{color: "white"}} />
                 </ListItemButton>
               </List>
             </Drawer>
-            <IconButton style={{backgroundColor: "#FFBD35", color: "#161E54"}} onClick={() => setOpenDrawer(!openDrawer)}>
+            <IconButton style={{color: "#fff"}} onClick={() => setOpenDrawer(!openDrawer)}>
             <MenuIcon />
             </IconButton>
         </div>

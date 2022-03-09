@@ -1,5 +1,5 @@
 import React from 'react';
-// import AppNavBar from '../Navbar/Nav';
+import AppNavBar from '../Navbar/Nav';
 import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardHeader, MDBInput, MDBBtn } from 'mdb-react-ui-kit';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Footer from "../home/Footer";
@@ -9,7 +9,7 @@ import Nav from '../home/Nav';
 const Portal = () => {
     return (
         <div>
-            <Nav />
+            <AppNavBar />
               <div className='p-5 text-center portal-background'>
                 <MDBCard background='light' className='mt-5 portal-center' style={{ margin: '0 auto'}}>
 

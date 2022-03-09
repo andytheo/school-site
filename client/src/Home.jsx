@@ -3,7 +3,7 @@ import Header from './components/home/Header';
 import Nav from './components/home/Nav';
 // import Intro from './components/home/Intro';
 
-// import AppNavBar from './components/Navbar/Nav';
+import AppNavBar from './components/Navbar/Nav';
 import About from './components/home/About';
 import Classes from './components/home/Classes';
 import WhyChooseUs from './components/home/Why-Choose-Us';
@@ -19,7 +19,7 @@ import Events from './components/home/Events';
 function Home() {
   return (
     <div>
-      <Nav />
+      <AppNavBar />
       <Header />
       <About />
       {/* <Intro /> */}
