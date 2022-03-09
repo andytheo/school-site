@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
-
-
-body {
+html,body
+{
+  width: 100%;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden; 
 }
 
 /* NAVBAR */
@@ -48,7 +49,6 @@ body {
   background-position: center;
   background-size: cover;
   height: 500px;
-  /* background-attachment: fixed; */
 }
 
 .our-classes {
@@ -65,13 +65,11 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 0.7)) , url("../cdc-GDokEYnOfnE-unsplash.jpg");
   background-position: center;
   background-size: cover;
-  /* height: 350px; */
   background-attachment: fixed;
 }
 
 
 .underline {
-  /* border-bottom: 2px solid currentColor; */
   text-decoration: underline;
 }
 
@@ -185,3 +183,4 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
     font-size: 150%;
   }
 }
+

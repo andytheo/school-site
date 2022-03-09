@@ -8,13 +8,13 @@ export default function WhyChooseUs() {
         {/* <div className="text-center text-dark h3 mt-2 mb-5">Testimonials</div> */}
       <MDBCol md='7' className='pt-5 mb-5 text-light'>
         <p className="h4 mb-3 px-5 underline">Testimonials</p>
-        <MDBCarousel className="px-5">
+        <MDBCarousel className="ml-5 pl-5">
           <MDBCarouselInner>
             <MDBCarouselItem className='active'>
               <MDBCarouselElement />
               <blockquote className="blockquote">
                 <p className="mb-3 w-75 reviews">
-                  Finding a good school was so difficult for me when I moved to Abuja,
+                  Finding a good school was difficult for me when I moved to Abuja,
                   through a friend, I was able to enroll my child in the school and it's
                   a great choice for me.
                 </p>
@@ -27,8 +27,7 @@ export default function WhyChooseUs() {
               <blockquote class="blockquote">
                 <p className="mb-3 w-75  reviews">
                   My daughter has shown remarkable progress since joining the school.
-                  I've seen changes in both her acadmics and social life. Good job,
-                  Pecuty Royal Academy!
+                  I've seen changes in both her academics and social life. Good job!
                 </p>
                 <footer className="blockquote-footer w-75">Obieze Amadi</footer>
               </blockquote>

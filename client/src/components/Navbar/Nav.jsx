@@ -15,76 +15,101 @@ import DrawerComponent from './Drawer';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import {Link} from "react-router-dom";
+import Dropdown from './Dropdown';
+import '../../css/Navbar.css';
+
 
 export default function AppNavBar() {
 
-  const [value, setValue] = useState(0);
-  const [anchorEl, setanchorEl] = useState(null);
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
-  const handleClickTab = (e, newValue) => {
-    setValue(newValue);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
   }
-  const handleOpenMenu = e => {
-    setanchorEl(e.currentTarget);
-  }
-  const handleCloseMenu = () => {
-    setanchorEl(null);
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
   }
 
   const theme = useTheme();
 
   const isMatch = useMediaQuery(theme.breakpoints.down('md'));
 
-  console.log(isMatch);
-
 return (
   <>
     <AppBar position="static" style={{backgroundColor: "#161E54"}}>
       <Toolbar>
-        {/* <IconButton
-          size="large"
-          edge="start"
-          color="inherit"
-          sx={{ mr: 2 }}
-          aria-label="menu"
-        >
-          <MenuIcon />
-        </IconButton> */}
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+        <Typography variant="h6" sx={{ flexGrow: 1 }}>
           <Link to="/"><img className="logo-img" src="pecuty-royal-logo.png" alt="logo" /></Link>
         </Typography>
         {isMatch ?
-          ( <DrawerComponent /> ) : (
+          ( <DrawerComponent className='display-menu'/> ) : (
             <>
-            <Tabs
-              TabIndicatorProps={{style: {background:'#FFBD35', alignItems:'center'}}}
-              value={value}
-              onChange={handleClickTab}
-              aria-label="basic tabs example"
-              centered>
-              <Tab disableRipple className="text-white" label="About"
-              onClick={handleOpenMenu} aria-controls='menu'/>
-              <Tab disableRipple className="text-white" label="Admissions" to='/admissions' component={Link}/>
-              <Tab disableRipple className="text-white" label="Portal" to='/portal' component={Link}/>
-              <Tab disableRipple className="text-white" label="Contact" to='/contact' component={Link}/>
-            </Tabs>
+            <div className='main-menu-icon' onClick={handleClick}>
+          <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
+        </div>
+        <ul className={click ? 'main-nav-menu active' : 'main-nav-menu'}>
+          <li className='main-nav-item'>
+            <Link to='/about' className='main-nav-links'
+            onClick='{closeMobileMenu}'>
+              About
+            </Link>
+          </li>
+          <li className='main-nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}>
+            <Link to='/admissions' className='main-nav-links'
+            onClick='{closeMobileMenu}'>
+              Admissions <i className='fa fa-caret-down' />
+            </Link>
+            {dropdown && <Dropdown/>}
+          </li>
+          <li className='main-nav-item'>
+            <Link to='/contact' className='main-nav-links'
+            onClick='{closeMobileMenu}'>
+              Contact
+            </Link>
+          </li>
+          <li className='main-nav-item'>
+            <Link to='/portal' className='main-nav-links'
+            onClick='{closeMobileMenu}'>
+              Portal
+            </Link>
+          </li>
+        </ul>
             </>
           )
         }
       </Toolbar>
     </AppBar>
-    <Menu id='menu'
-      onClose={handleCloseMenu}
-      anchorEl={anchorEl}
-      open={Boolean(anchorEl)}
-      style={{marginTop: "0px", width: "150px"}}>
+    {/* <Menu anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
+        transformOrigin={{ vertical: "top", horizontal: "left" }}
+        id="simple-menu"
+        anchorEl={anchorEl}
+        open={Boolean(anchorEl)}
+        onClose={handleClose}
+        MenuListProps={{ onMouseLeave: handleClose }}
+        getContentAnchorEl={null}>
       <MenuItem><Link to="/about">Our School</Link></MenuItem>
       <MenuItem>Who we are</MenuItem>
       <MenuItem>Our History</MenuItem>
       <MenuItem>Calendar</MenuItem>
-    </Menu>
+    </Menu> */}
 
   </>
 
-);
-}
+)
+
+  }

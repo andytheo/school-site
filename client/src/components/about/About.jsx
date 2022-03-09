@@ -14,7 +14,7 @@ import TransparentHeader from '../props/TransparentHeader';
 const About = () => {
     return (
         <div>
-          <Nav />
+          <AppNavBar />
           <TransparentHeader
             text="About Us"
           />
