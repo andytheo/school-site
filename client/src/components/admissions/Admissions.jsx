@@ -1,11 +1,10 @@
 import React from 'react';
 import AppNavBar from '../Navbar/Nav';
-import {MDBRow, MDBCol, MDBCard, MDBCardBody, MDBContainer, MDBCardText, MDBBtn } from 'mdb-react-ui-kit';
+import {MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
 import StepsToApply from '../props/StepsToApply';
 import TransparentHeader from '../props/TransparentHeader';
 import Footer from '../home/Footer';
 
-import Nav from '../home/Nav';
 const Admissions = () => {
   return (<div>
     <AppNavBar />

@@ -13,7 +13,7 @@ export default function Classes() {
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
-            src='./images/segun-osunyomi-3BztcJxliEM-unsplash.jpg'
+            src='./images/Pecuty-2/IMG-20211026-WA0002.jpg'
             alt='...'
             position='top'
           />
@@ -31,7 +31,7 @@ export default function Classes() {
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
-            src='./images/cdc-GDokEYnOfnE-unsplash.jpg'
+            src='./images/Pecuty-2/IMG-20211026-WA0012.jpg'
             alt='...'
             position='top'
           />
@@ -49,7 +49,7 @@ export default function Classes() {
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
-            src='./images/omotayo-kofoworola-W9OQnSdsv6A-unsplash.jpg'
+            src='./images/Pecuty-2/IMG-20211024-WA0043.jpg'
             alt='...'
             position='top'
           />
@@ -67,7 +67,7 @@ export default function Classes() {
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
-            src='./images/ben-white-83tkHLPgg2Q-unsplash.jpg'
+            src='./images/Pecuty-2/IMG-20211024-WA0045.jpg'
             alt='...'
             position='top'
           />

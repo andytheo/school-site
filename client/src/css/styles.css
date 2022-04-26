@@ -45,7 +45,7 @@ html,body
 }
 
 .intro {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../neonbrand-zFSo6bnZJTw-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0043.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -62,7 +62,7 @@ html,body
 }
 
 .testimonials {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 0.7)) , url("../cdc-GDokEYnOfnE-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0036.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -104,7 +104,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 
 /* PORTAL */
 .portal-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)) , url("../neonbrand-zFSo6bnZJTw-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)) , url("../images/Pecuty-2/IMG-20211024-WA0044.jpg");
   background-position: center;
   background-size: cover;
   height: 587px;
@@ -143,28 +143,28 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 
 /* CLASSES  */
 .creche-header-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/segun-osunyomi-3BztcJxliEM-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211026-WA0002.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
 }
 
 .nursery-header-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/cdc-GDokEYnOfnE-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211026-WA0012.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
 }
 
 .primary-header-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/omotayo-kofoworola-W9OQnSdsv6A-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0043.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;
 }
 
 .secondary-header-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/ben-white-83tkHLPgg2Q-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0045.jpg");
   background-position: center;
   background-size: cover;
   height: 500px;

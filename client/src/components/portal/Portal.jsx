@@ -1,10 +1,7 @@
 import React from 'react';
 import AppNavBar from '../Navbar/Nav';
-import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBCardHeader, MDBInput, MDBBtn } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardTitle, MDBCardText, MDBCardBody, MDBInput, MDBBtn } from 'mdb-react-ui-kit';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import Footer from "../home/Footer";
-import Nav from '../home/Nav';
-// import Header from '../home/Header';
 
 const Portal = () => {
     return (

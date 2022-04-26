@@ -2,7 +2,6 @@ import React from 'react'
 import AppNavBar from '../Navbar/Nav';
 import Footer from '../home/Footer';
 
-import Nav from '../home/Nav';
 import { MDBContainer, MDBRow, MDBCol} from 'mdb-react-ui-kit';
 import SchoolIcon from '@mui/icons-material/School';
 import ClassIcon from '@mui/icons-material/Class';
@@ -23,13 +22,13 @@ const About = () => {
                 <MDBRow className="mb-2 d-flex justify-content-center">
 
                 <MDBCol size='md' className="d-none d-sm-none d-lg-block d-xl-block" style={{width: 200, height: 300}}>
-                  <img className='img-fluid shadow-4 rounded-3' data-aos="fade-up" src='./images/pexels-katerina-holmes-5905918.jpg'
+                  <img className='img-fluid shadow-4 rounded-3' data-aos="fade-up" src='./images/Pecuty-2/IMG-20211024-WA0044.jpg'
                   alt='Teacher' />
                 </MDBCol>
 
                   <MDBCol size='md' className='mx-5 mb-2 col-example lh-lg' style={{width: 400}}>
                     <div data-aos="fade-up">
-                    <p className="h3 mb-4">Who are we?</p>
+                    <p className="h3 mb-4">Who are we</p>
                     <p></p>Pecuty Royal International Academy is an educational institution which provides a conducive learning environment
                     to students. With over 5 years of existence, we have continued to deliver excellent education to our students.
                     Our watch-word is excellence and we are committed to training student to excel in their studies and also improve on their skills

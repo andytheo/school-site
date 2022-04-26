@@ -1,16 +1,7 @@
 import React, { useState } from 'react';
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-// import BasicTabs from './Tab'
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
 import DrawerComponent from './Drawer';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
@@ -25,7 +16,7 @@ export default function AppNavBar() {
   const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+//  const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {

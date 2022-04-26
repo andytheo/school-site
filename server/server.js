@@ -1,22 +1,12 @@
 const dotenv = require('dotenv');
 const express = require("express");
-const nodes = require('./data/node');
-const userRoutes = require('./routes/userRoutes');
-const connectDb = require('./config/db');
+// const connectDb = require('./config/db');
 const path = require('path');
-const { notFound, errorHandler } = require("./middlewares/errorMiddleware");
 dotenv.config();
 
 const app = express();
-connectDb();
+// connectDb();
 app.use(express.json());
-
-
-app.get("/api/nodes", (req, res) => {
-  res.json(nodes)
-})
-
-app.use("/api/users", userRoutes);
 
 // --------------------Deployment--------------------------------
 __dirname = path.resolve();
@@ -33,8 +23,6 @@ if (process.env.NODE_ENV === "production") {
 }
 // -------------------------------------------------------
 
-app.use(notFound);
-app.use(errorHandler);
 
 const PORT = process.env.PORT || 4000;
 

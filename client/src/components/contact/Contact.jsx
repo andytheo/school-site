@@ -7,11 +7,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 
-import Nav from '../home/Nav';
 import TransparentHeader from '../props/TransparentHeader';
-
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   return (
