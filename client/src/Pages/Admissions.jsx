@@ -1,5 +1,5 @@
 import React from 'react'
-import Admissions from './components/admissions/Admissions';
+import Admissions from '../components/admissions/Admissions';
 
 const AdmissionsPage = () => {
     return (

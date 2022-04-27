@@ -1,11 +1,7 @@
 // import React, { Component } from "react";
 import React from "react";
-import { MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
 import AppNavBar from '../Navbar/Nav';
 import Footer from '../home/Footer';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import EmailIcon from '@mui/icons-material/Email';
 
 import TransparentHeader from '../props/TransparentHeader';
 
@@ -16,10 +12,8 @@ export default function Contact() {
     <TransparentHeader
       text="Contact Us"
     />
-    <MDBContainer className="mb-5">
-      <MDBRow className='mb-3 mt-5 container'>
-        <MDBCol md='7' className='col-example'>
-          <form>
+    <section className="main-contact">
+      <form className="contact-form">
 
   <div class="form-outline mb-4">
     <label class="form-label" for="form4Example1">Name</label>
@@ -38,24 +32,8 @@ export default function Contact() {
 
   <button type="submit" class="btn btn-block mb-4" style={{backgroundColor: "#161E54", color: "#fff"}}>Send Message</button>
 </form>
-</MDBCol>
 
-
-        <MDBCol sm='12' md='5' className='col-example'>
-          <p className="h3">Location</p>
-          {/* <FontAwesomeIcon icon={['fab', 'apple']} />
-          <FontAwesomeIcon icon={["fab", "exclamation"]} /> */}
-          <p><LocationOnIcon /> 27 Joe Vic cresent, Aso C, Mararaba, Abuja</p>
-
-          <p className="h4">Phone</p>
-          <p><LocalPhoneIcon /> +234 801 1122 233</p>
-          <p><LocalPhoneIcon /> +234 804 4455 677</p>
-
-          <p className="h4">Email</p>
-          <p><EmailIcon /> contact@pecutyroyal.com</p>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
+    </section>
       <Footer />
     </div>
   );

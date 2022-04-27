@@ -40,6 +40,22 @@ const About = () => {
             </MDBContainer>
           </section>
           <hr style={{margin: '0 70px'}}/>
+          
+          <section className='text-center background'>
+            <h2>Background</h2>
+            <p style={{lineHeight: "2"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec ultricies fermentum mollis. Aenean molestie eros odio,
+                  et viverra ante efficitur et. Aenean finibus arcu vitae lacinia rutrum.
+                  Etiam accumsan gravida est eget maximus.
+                  In sed fringilla tellus. Donec dictum lorem id purus bibendum,
+                  ac commodo neque gravida.</p>
+            <p>Pellentesque nec metus eget ligula varius porta ac eu felis. Vestibulum sed pulvinar justo, non vulputate dolor. 
+              Nunc eu libero placerat, iaculis tellus at, aliquet leo. Cras varius lacinia 
+              ligula, eget auctor tortor luctus quis. Pellentesque habitant morbi tristique senectus et netus et 
+              malesuada fames ac turpis egestas. Nam sagittis auctor mi, a vulputate lacus tempus eget. 
+              Nulla quam ipsum, finibus ut magna non, blandit tempus nisl. </p>
+          </section>
+          <hr style={{margin: '0 70px'}}/>
           <section className="container text-center">
             <p className="h3 text-center mt-5">Features</p>
             <MDBRow data-aos="fade-up" className='row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-4 row-cols-xs-12 g-4 mt-2'>
@@ -68,22 +84,10 @@ const About = () => {
 
           <hr style={{margin: '0 70px'}}/>
 
-          <section className="container text-center mt-5 mb-5">
-            <MDBRow data-aos="fade-up" className='row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-2 row-cols-xs-12 g-4 mt-2'>
-              <MDBCol>
-                <p className="h4 mb-3">Our History</p>
-                <p style={{lineHeight: "2"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Donec ultricies fermentum mollis. Aenean molestie eros odio,
-                  et viverra ante efficitur et. Aenean finibus arcu vitae lacinia rutrum.
-                  Etiam accumsan gravida est eget maximus.
-                  In sed fringilla tellus. Donec dictum lorem id purus bibendum,
-                  ac commodo neque gravida.</p>
-              </MDBCol>
-
-              <MDBCol>
-                <div style={{backgroundColor: "#FFD523", padding: 30}}>
+          <section className="container mt-5 mb-5 text-center">
                 <p className="h4 mb-4" style={{textDecoration: "underline"}}>Our Core Values</p>
-                <ul className="core-values" style={{fontSize: 18}}>
+                <div className="core-values">
+                <ul className='main-values' style={{fontSize: 18}}>
                   <li>Integrity</li>
                   <li>Honesty</li>
                   <li>Nurturing</li>
@@ -97,8 +101,6 @@ const About = () => {
                   <li>Teamwork</li>
                 </ul>
                 </div>
-              </MDBCol>
-            </MDBRow>
           </section>
 
           <Footer />

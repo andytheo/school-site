@@ -1,14 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import Home from './Home';
-import Contacts from './Contact';
-import About from './About';
+import Home from './Pages/Home';
+import Contacts from './Pages/Contact';
+import About from './Pages/About';
 import Creche from './components/classes/Creche';
 import Nursery from './components/classes/Nursery';
 import Primary from './components/classes/Primary';
 import Secondary from './components/classes/Secondary';
-import Admissions from './Admissions';
-import Portal from './Portal';
+import Admissions from './Pages/Admissions';
+import Anthem from './Pages/Anthem';
+import Portal from './Pages/Portal';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -24,6 +25,7 @@ function App() {
         {/* <Route exact path="/nav" element={<AppNavBar/>}/> */}
         <Route exact path="/about" element={<About/>}/>
         <Route exact path="/admissions" element={<Admissions/>}/>
+        <Route exact path="/anthem" element={<Anthem/>}/>
         <Route exact path="/contact" element={<Contacts/>}/>
 
         {/* CLASSES */}
