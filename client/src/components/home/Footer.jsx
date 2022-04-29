@@ -4,6 +4,8 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 
+import {Link} from "react-router-dom";
+
 
 export default function Footer() {
   return (
@@ -12,9 +14,11 @@ export default function Footer() {
         <MDBRow>
           <MDBCol lg='6' md='12' className='mb-4 mb-md-0'>
             <h5 className='text-uppercase text-start'>PECUTY ROYAL INTERNATIONAL ACADEMY</h5>
-            <p className="text-start"><LocationOnIcon style={{color: "#FFD523"}}/> 27 Joe Vic cresent, Aso C, Mararaba, Abuja</p>
-            <p className="text-start"><LocalPhoneIcon style={{color: "#FFD523"}}/> +234 804 4455 677</p>
-            <p className="text-start"><EmailIcon style={{color: "#FFD523"}}/> contact@pecutyroyal.com</p>
+            <a href='' className='footer-number'><LocationOnIcon style={{color: "#FFD523"}}/> 27 Joe Vic cresent, Aso C, Mararaba, Abuja</a>
+            <a href='tel:08104000083' className='footer-number'><LocalPhoneIcon style={{color: "#FFD523"}}/> +234 810 4000 083</a>
+            <a href='tel:08130106622' className="footer-number" style={{textAlign: "left"}}><LocalPhoneIcon style={{color: "#FFD523"}}/> +234 813 0106 622</a>
+            <a href='mailto:info@pecutyroyalacademy.com' rel='noopener noreferrer'
+            className="footer-email"><EmailIcon style={{color: "#FFD523"}}/> info@pecutyroyalacademy.com</a><br />
           </MDBCol>
 
           <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
@@ -22,29 +26,29 @@ export default function Footer() {
 
             <ul className='list-unstyled mb-0 text-start'>
               <li>
-                <a href='#!' className='footer-link'>
+                <Link to="/" className='footer-link'>
                   Our Vision
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='footer-link'>
+                <Link to="/" className='footer-link'>
                   Our mission
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='footer-link'>
+                <Link to="/about" className='footer-link'>
                   Our History
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='footer-link'>
+                <Link to="/" className='footer-link'>
                   Our Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='footer-link'>
+                <Link to="/anthem" className='footer-link'>
                   Anthem
-                </a>
+                </Link>
               </li>
             </ul>
           </MDBCol>
@@ -54,14 +58,14 @@ export default function Footer() {
 
             <ul className='list-unstyled text-start text-decoration-none'>
               <li>
-                <a href='#!' className='footer-link'>
+                <Link to="/admissions" className='footer-link'>
                   Apply
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='#!' className='footer-link'>
+                <Link to="/admissions" className='footer-link'>
                   Admission criteria
-                </a>
+                </Link>
               </li>
             </ul>
           </MDBCol>

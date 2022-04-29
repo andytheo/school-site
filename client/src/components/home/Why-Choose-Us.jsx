@@ -13,7 +13,7 @@ export default function WhyChooseUs() {
             <MDBCarouselItem className='active'>
               <MDBCarouselElement />
               <blockquote className="blockquote">
-                <p className="mb-3 w-75 reviews px-5">
+                <p className="mb-3 w-75 reviews"  style={{marginLeft: 35}}>
                   Finding a good school was difficult for me when I moved to Abuja,
                   through a friend, I was able to enroll my child in the school and it's
                   a great choice for me.
@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
             <MDBCarouselItem>
               <MDBCarouselElement />
               <blockquote class="blockquote">
-                <p className="mb-3 w-75  reviews px-5">
+                <p className="mb-3 w-75  reviews" style={{marginLeft: 35}}>
                   My daughter has shown remarkable progress since joining the school.
                   I've seen changes in both her academics and social life. Good job!
                 </p>
@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
             <MDBCarouselItem>
               <MDBCarouselElement />
               <blockquote class="blockquote">
-                <p className="mb-3 w-75  reviews px-5">A school which instills good behaviour, good
+                <p className="mb-3 w-75  reviews" style={{marginLeft: 35}}>A school which instills good behaviour, good
                   morals and good etiquette and poise in her students. Pecuty Royal Academy is a true model
                   to students.</p>
                 <footer className="blockquote-footer w-75 px-5">Stella Okafor</footer>

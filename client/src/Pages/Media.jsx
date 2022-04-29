@@ -15,6 +15,8 @@ import img5 from '../images/Pecuty-2/IMG-20211024-WA0034.jpg';
 import img6 from '../images/Pecuty-2/IMG-20211024-WA0036.jpg';
 
 import CloseIcon from '@mui/icons-material/Close';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 const Media = () => {
 
@@ -62,6 +64,9 @@ const getImg = (imgSrc) => {
       <section className={modal ? "modal open" : "modal"}>
         <img src={tempImgSrc} alt="Graduation pictures" />
         <CloseIcon className="closeModal text-white" onClick={() => setModal(false)} />
+        <ArrowForwardIosIcon className='text-white nextPicture' />
+        <ArrowBackIosNewIcon className='text-white prevPicture' />
+
       </section>
       <section className='gallery'>
         {

@@ -161,13 +161,21 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
     color: #161E54;
 }
 
+.footer-number, .footer-email {
+  display: block;
+  color: #161E54;
+  text-decoration: none;
+  text-align: left;
+  width: 330px;
+}
+
 .footer-link {
   text-decoration: none;
   color: #161E54;
 }
 
 .footer-link:hover {
-  color: #FFD523;
+  color: blue;
 }
 
 
@@ -211,7 +219,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 
 /* ABOUT US */
 .background {
-  margin: 50px 20vw;
+  margin: 15px;
 }
 
 .core-values {
@@ -284,5 +292,11 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
   .intro-text {
     font-size: 150%;
   }
+}
+
+@media (min-width: 996px) {
+  .background {
+  margin: 20px 70px;
+}
 }
 

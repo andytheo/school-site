@@ -41,19 +41,13 @@ const About = () => {
           </section>
           <hr style={{margin: '0 70px'}}/>
           
-          <section className='text-center background'>
+          <section className='text-justify background'>
             <h2>Background</h2>
-            <p style={{lineHeight: "2"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Donec ultricies fermentum mollis. Aenean molestie eros odio,
-                  et viverra ante efficitur et. Aenean finibus arcu vitae lacinia rutrum.
-                  Etiam accumsan gravida est eget maximus.
-                  In sed fringilla tellus. Donec dictum lorem id purus bibendum,
-                  ac commodo neque gravida.</p>
-            <p>Pellentesque nec metus eget ligula varius porta ac eu felis. Vestibulum sed pulvinar justo, non vulputate dolor. 
-              Nunc eu libero placerat, iaculis tellus at, aliquet leo. Cras varius lacinia 
-              ligula, eget auctor tortor luctus quis. Pellentesque habitant morbi tristique senectus et netus et 
-              malesuada fames ac turpis egestas. Nam sagittis auctor mi, a vulputate lacus tempus eget. 
-              Nulla quam ipsum, finibus ut magna non, blandit tempus nisl. </p>
+            <p>Pecuty Royal Int'l Academy was Incorporated by Corporate Affairs Commission of the federal republic of Nigeria on the 26th of April, 2017.</p>
+              <p>The school was established and started its educational operations in  September, 2017/2018 academic season with 14 pupils on enrollment which had Miss Ezenwa Miracle  Favour as her pioneer pupil.</p>
+              <p>Pecuty Royal Int'l Academy was officially opened with an official opening ceremony on the 16th December 2017 under the distinguished chairmanship of Dr. S. U. NENE
+              In September 11, 2018 the Ministry of Education was satisfied by the level of our infrastructural development and qualification of our staff and gave approval for commencement of secondary arm of the school which led to massive academic activities and excellence of the school.</p><p>We had witness one level of development to another.
+              Presently pre school, primary and secondary schools are thriving and evolving everyday.</p>
           </section>
           <hr style={{margin: '0 70px'}}/>
           <section className="container text-center">
