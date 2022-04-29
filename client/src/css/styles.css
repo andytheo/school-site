@@ -133,9 +133,37 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 
 
 /* FOOTER */
+.main-footer {
+  margin-top: 50px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1fa;
+}
+
+.main-footer::before {
+  background-image: url("../images/pecuty-royal-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: .1;
+  /* background-color: #161E54; */
+}
+
+.footer-background {
+  position: relative;
+    color: #161E54;
+}
+
 .footer-link {
   text-decoration: none;
-  color: white;
+  color: #161E54;
 }
 
 .footer-link:hover {
@@ -209,6 +237,24 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
   display: inline-block;
   padding: 5px;
   font-weight: bold;
+}
+
+.staff {
+  box-shadow: 1px 0px 5px black;
+  border-radius: 10px;
+  width: 260px;
+  margin: 0 auto;
+}
+
+.staff-column {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.staff-image {
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* CONTACT */

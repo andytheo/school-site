@@ -1,15 +1,15 @@
 .main-dropdown-menu {
   background: #064635;
-  width: 120px;
+  width: 90px;
   position: absolute;
   top: 57px;
   list-style: none;
-  text-align: start;
+  text-align: left;
 }
 
 .main-dropdown-menu li {
   background: #161E54;
-  margin: 0px -35px;
+  margin: 0px -50px;
   cursor: pointer;
 }
 

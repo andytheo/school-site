@@ -7,6 +7,7 @@ import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import {Link} from "react-router-dom";
 import Dropdown from './Dropdown';
+import AboutDropdown from './AboutDropdown';
 import '../../css/Navbar.css';
 
 
@@ -14,6 +15,8 @@ export default function AppNavBar() {
 
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+
+  const [aboutDropdown, setAboutDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
 //  const closeMobileMenu = () => setClick(false);
@@ -34,6 +37,24 @@ export default function AppNavBar() {
     }
   }
 
+  // About Dropdown 
+const onAboutEnter = () => {
+    if (window.innerWidth < 960) {
+      setAboutDropdown(false);
+    } else {
+      setAboutDropdown(true);
+    }
+  }
+
+  const onAboutLeave = () => {
+    if (window.innerWidth < 960) {
+      setAboutDropdown(false);
+    } else {
+      setAboutDropdown(false);
+    }
+  }
+
+
   const theme = useTheme();
 
   const isMatch = useMediaQuery(theme.breakpoints.down('md'));
@@ -52,10 +73,13 @@ return (
           <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
         </div>
         <ul className={click ? 'main-nav-menu active' : 'main-nav-menu'}>
-          <li className='main-nav-item'>
+          <li className='main-nav-item' 
+            onMouseEnter={onAboutEnter}
+            onMouseLeave={onAboutLeave}>
             <Link to='/about' className='main-nav-links'
             onClick='{closeMobileMenu}'>
-              About
+              About <i className='fa fa-caret-down' />
+              {aboutDropdown && <AboutDropdown/>}
             </Link>
           </li>
           <li className='main-nav-item'
@@ -71,6 +95,12 @@ return (
             <Link to='/contact' className='main-nav-links'
             onClick='{closeMobileMenu}'>
               Contact
+            </Link>
+          </li>
+          <li className='main-nav-item'>
+            <Link to='/media' className='main-nav-links'
+            onClick='{closeMobileMenu}'>
+              Media
             </Link>
           </li>
           <li className='main-nav-item'>

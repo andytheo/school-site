@@ -8,6 +8,7 @@ import Nursery from './components/classes/Nursery';
 import Primary from './components/classes/Primary';
 import Secondary from './components/classes/Secondary';
 import Admissions from './Pages/Admissions';
+import Media from './Pages/Media';
 import Anthem from './Pages/Anthem';
 import Portal from './Pages/Portal';
 import Aos from 'aos';
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/admissions" element={<Admissions/>}/>
         <Route exact path="/anthem" element={<Anthem/>}/>
         <Route exact path="/contact" element={<Contacts/>}/>
+        <Route exact path="/media" element={<Media/>}/>
 
         {/* CLASSES */}
         <Route exact path="/creche" element={<Creche/>}/>

@@ -38,10 +38,15 @@ export default function DrawerComponent() {
   const [openDrawer, setOpenDrawer] = useState(false);
   const classes = useStyles();
 
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
+  const [openAbout, setOpenAbout] = React.useState(false);
 
   const handleClick = () => {
     setOpen(!open);
+  };
+
+  const handleAboutClick = () => {
+    setOpenAbout(!openAbout);
   };
 
     return (
@@ -61,12 +66,40 @@ export default function DrawerComponent() {
                 <ListItemText primary="Home" style={{color: "white"}}/>
               </ListItemButton>
 
-                <ListItemButton to='/about' component={Link}>
+                <ListItemButton onClick={handleAboutClick}>
                   <ListItemIcon>
                     <InfoIcon style={{color: "gold"}}/>
                   </ListItemIcon>
                   <ListItemText primary="About" style={{color: "white"}} />
+                  {openAbout ? <ExpandLess /> : <ExpandMore />}
                 </ListItemButton>
+                <Collapse style={{color: "white"}} in={openAbout} timeout="auto" unmountOnExit>
+                  <List component="div" disablePadding>
+                    <ListItemButton sx={{ pl: 4 }} to='/about' component={Link}>
+                      <ListItemIcon>
+                        <StarBorder style={{color: "gold"}} />
+                      </ListItemIcon>
+                      <ListItemText primary="Our History" style={{color: "white"}} />
+                    </ListItemButton>
+                  </List>
+                  <List component="div" disablePadding>
+
+                    <ListItemButton sx={{ pl: 4 }} to='/about' component={Link}>
+                      <ListItemIcon>
+                        <StarBorder style={{color: "gold"}} />
+                      </ListItemIcon>
+                      <ListItemText primary="Staff" style={{color: "white"}} />
+                    </ListItemButton>
+
+                   <ListItemButton sx={{ pl: 4 }} to='/anthem' component={Link}>
+                      <ListItemIcon>
+                        <StarBorder style={{color: "gold"}} />
+                      </ListItemIcon>
+                      <ListItemText primary="Anthem" style={{color: "white"}} />
+                    </ListItemButton>
+                  </List>
+                </Collapse>
+
 
                 <ListItemButton onClick={handleClick}>
                   <ListItemIcon>
@@ -100,6 +133,13 @@ export default function DrawerComponent() {
                     <CallIcon style={{color: "gold"}}/>
                   </ListItemIcon>
                   <ListItemText primary="Contact" style={{color: "white"}}/>
+                </ListItemButton>
+
+                 <ListItemButton to='/media' component={Link}>
+                  <ListItemIcon>
+                    <CallIcon style={{color: "gold"}}/>
+                  </ListItemIcon>
+                  <ListItemText primary="Media" style={{color: "white"}}/>
                 </ListItemButton>
 
                 <ListItemButton to='/portal' component={Link}>

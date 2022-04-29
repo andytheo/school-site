@@ -28,7 +28,7 @@ const About = () => {
 
                   <MDBCol size='md' className='mx-5 mb-2 col-example lh-lg' style={{width: 400}}>
                     <div data-aos="fade-up">
-                    <p className="h3 mb-4">Who are we</p>
+                    <p className="h3 mb-4">Who are we?</p>
                     <p></p>Pecuty Royal International Academy is an educational institution which provides a conducive learning environment
                     to students. With over 5 years of existence, we have continued to deliver excellent education to our students.
                     Our watch-word is excellence and we are committed to training student to excel in their studies and also improve on their skills
@@ -103,6 +103,43 @@ const About = () => {
                 </div>
           </section>
 
+          <hr style={{margin: '0 70px'}}/>
+          {/* STAFF */}
+          <section id='staff'>
+            <h2 className='text-center pt-5'>Our Staff</h2>
+            <MDBContainer className='staff-column'>
+            <MDBRow data-aos="fade-up" className='row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-4 row-cols-xs-12 g-4 mt-2'>
+              <MDBCol>
+                <div className='staff'>
+                  <img className='staff-image' src="https://picsum.photos/253/300" alt="" />
+                  <h4 className='my-2'>Mr James Ojo</h4>
+                  <p className='pb-3'>Principal</p>
+                </div>
+              </MDBCol>
+              <MDBCol>
+                <div className='staff'>
+                  <img className='staff-image' src="https://picsum.photos/251/300" alt="" />
+                  <h4 className='my-2'>Mrs Chima</h4>
+                  <p className='pb-3'>Vice Principal</p>
+                </div>
+              </MDBCol>
+              <MDBCol>
+                <div className='staff'>
+                  <img className='staff-image' src="https://picsum.photos/252/300" alt="" />
+                  <h4 className='my-2'>Mr Suleiman</h4>
+                  <p className='pb-3'>Senior Teacher</p>
+                </div>
+              </MDBCol>
+              <MDBCol>
+                <div className='staff'>
+                  <img className='staff-image' src="https://picsum.photos/253/300" alt="" />
+                  <h4 className='my-2'>Mrs Oche</h4>
+                  <p className='pb-3'>Science Teacher</p>
+                </div>
+              </MDBCol>
+            </MDBRow>
+            </MDBContainer>
+          </section>
           <Footer />
         </div>
     )

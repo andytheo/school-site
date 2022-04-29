@@ -13,6 +13,7 @@ function Home() {
   return (
     <div>
       <AppNavBar />
+      <main>
       <Header />
       <About />
       {/* <Intro /> */}
@@ -21,6 +22,7 @@ function Home() {
       <WhyChooseUs />
       <Events />
       {/*<Motto />*/}
+      </main>
       <Footer />
     </div>
   );

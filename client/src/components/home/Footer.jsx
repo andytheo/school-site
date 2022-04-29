@@ -7,8 +7,8 @@ import EmailIcon from '@mui/icons-material/Email';
 
 export default function Footer() {
   return (
-    <MDBFooter style={{backgroundColor: "#161E54", color: "white"}} className='text-center text-lg-left'>
-      <MDBContainer className='p-4'>
+    <MDBFooter className='main-footer text-center text-lg-left'>
+      <MDBContainer className='p-4 footer-background'>
         <MDBRow>
           <MDBCol lg='6' md='12' className='mb-4 mb-md-0'>
             <h5 className='text-uppercase text-start'>PECUTY ROYAL INTERNATIONAL ACADEMY</h5>
