@@ -10,7 +10,7 @@ export default function About() {
             <MDBCol size='md' data-aos="fade-up" data-aos-duration="1000" className='mx-5 mb-2 col-example lh-lg' style={{width: 500, textAlign: "justify"}}>
               <h2>About Us</h2>
               <p>
-                Pecuty Royal International Academy is a learning institution established in 2009, located
+                Pecuty Royal International Academy is a learning institution established in 2017, located
                 in Abuja. Our mission is to provide academic, moral and social education to our students.
                 Our students are instilled with good morals, they are well-behaved, polite, courteous
                 and focused.

@@ -10,7 +10,7 @@ const Primary = () => {
             headerStyling='p-5 text-center bg-image primary-header-image'
           classTitle="PRIMARY"/>
           <Intro
-          title="Creche"
+          title="Primary"
           firstParagraph="Sed sit amet euismod arcu. Maecenas tincidunt at nibh sit amet porttitor.
           Etiam fermentum malesuada ex, non facilisis ligula tempor ut. Proin tincidunt accumsan faucibus.
           Phasellus consequat nulla rhoncus vulputate volutpat. Nam rutrum ultrices tellus.

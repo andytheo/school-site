@@ -41,12 +41,12 @@ const About = () => {
           </section>
           <hr style={{margin: '0 70px'}}/>
           
-          <section className='text-justify background'>
+          <section className='text-justify background  lh-lg'>
             <h2>Background</h2>
             <p>Pecuty Royal Int'l Academy was Incorporated by Corporate Affairs Commission of the federal republic of Nigeria on the 26th of April, 2017.</p>
               <p>The school was established and started its educational operations in  September, 2017/2018 academic season with 14 pupils on enrollment which had Miss Ezenwa Miracle  Favour as her pioneer pupil.</p>
-              <p>Pecuty Royal Int'l Academy was officially opened with an official opening ceremony on the 16th December 2017 under the distinguished chairmanship of Dr. S. U. NENE
-              In September 11, 2018 the Ministry of Education was satisfied by the level of our infrastructural development and qualification of our staff and gave approval for commencement of secondary arm of the school which led to massive academic activities and excellence of the school.</p><p>We had witness one level of development to another.
+              <p>Pecuty Royal Int'l Academy was officially opened with an official opening ceremony on the 16th December 2017 under the distinguished chairmanship of Dr. S. U. NENE</p>
+              <p>In September 11, 2018 the Ministry of Education was satisfied by the level of our infrastructural development and qualification of our staff and gave approval for commencement of secondary arm of the school which led to massive academic activities and excellence of the school.</p><p>We have witness one level of development to another.
               Presently pre school, primary and secondary schools are thriving and evolving everyday.</p>
           </section>
           <hr style={{margin: '0 70px'}}/>
@@ -100,35 +100,21 @@ const About = () => {
           <hr style={{margin: '0 70px'}}/>
           {/* STAFF */}
           <section id='staff'>
-            <h2 className='text-center pt-5'>Our Staff</h2>
+            <h2 className='text-center pt-5'>Management</h2>
             <MDBContainer className='staff-column'>
             <MDBRow data-aos="fade-up" className='row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-4 row-cols-xs-12 g-4 mt-2'>
               <MDBCol>
                 <div className='staff'>
-                  <img className='staff-image' src="https://picsum.photos/253/300" alt="" />
-                  <h4 className='my-2'>Mr James Ojo</h4>
-                  <p className='pb-3'>Principal</p>
+                  <img className='staff-image' src="/images/Pecuty-2/dague.jpeg" alt="" />
+                  <h6 className='my-2'>Prince Dague Frederick Pecuty</h6>
+                  <p className='pb-3'>Proprietor</p>
                 </div>
               </MDBCol>
               <MDBCol>
                 <div className='staff'>
-                  <img className='staff-image' src="https://picsum.photos/251/300" alt="" />
-                  <h4 className='my-2'>Mrs Chima</h4>
-                  <p className='pb-3'>Vice Principal</p>
-                </div>
-              </MDBCol>
-              <MDBCol>
-                <div className='staff'>
-                  <img className='staff-image' src="https://picsum.photos/252/300" alt="" />
-                  <h4 className='my-2'>Mr Suleiman</h4>
-                  <p className='pb-3'>Senior Teacher</p>
-                </div>
-              </MDBCol>
-              <MDBCol>
-                <div className='staff'>
-                  <img className='staff-image' src="https://picsum.photos/253/300" alt="" />
-                  <h4 className='my-2'>Mrs Oche</h4>
-                  <p className='pb-3'>Science Teacher</p>
+                  <img className='staff-image' src="/images/Pecuty-2/mercy.jpeg" alt="" />
+                  <h6 className='my-2'>Mrs Idinikpete Mercy Pecuty</h6>
+                  <p className='pb-3'>Executive Director, Operation, Research and Planning</p>
                 </div>
               </MDBCol>
             </MDBRow>

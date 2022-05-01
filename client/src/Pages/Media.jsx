@@ -64,7 +64,7 @@ const getImg = (imgSrc) => {
       <section className={modal ? "modal open" : "modal"}>
         <img src={tempImgSrc} alt="Graduation pictures" />
         <CloseIcon className="closeModal text-white" onClick={() => setModal(false)} />
-        <ArrowForwardIosIcon className='text-white nextPicture' />
+        <ArrowForwardIosIcon className='text-white nextPicture'/>
         <ArrowBackIosNewIcon className='text-white prevPicture' />
 
       </section>
