@@ -5,7 +5,8 @@ const TransparentHeader = (props) => {
         <div>
           <div className='p-5 text-center bg-light admission-process'>
             <h1 className='mb-5 text-light'>{props.text}</h1>
-            {/* <button className="btn text-light rounded" style={{backgroundColor: "#161E54"}}></button> */}
+            {/* <a className="text-light rounded" 
+            style={{backgroundColor: "#161E54", textDecoration: "none", padding: 5}}>{props.admissionForm}</a> */}
           </div>
         </div>
     )

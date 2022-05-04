@@ -117,6 +117,34 @@ const About = () => {
                   <p className='pb-3'>Executive Director, Operation, Research and Planning</p>
                 </div>
               </MDBCol>
+              <MDBCol>
+                <div className='staff'>
+                  <img className='staff-image' src="/images/Pecuty-2/idowu.jpeg" alt="" />
+                  <h6 className='my-2'>Mrs Idowu Feyisetan Josephine</h6>
+                  <p className='pb-3'>School Administrator</p>
+                </div>
+              </MDBCol>
+              <MDBCol>
+                <div className='staff'>
+                  <img className='staff-image' src="/images/Pecuty-2/nwachukwu2.jpg" alt="" />
+                  <h6 className='my-2'>Miss Nwachukwu Maria Ngozi</h6>
+                  <p className='pb-3'>Head of Academics</p>
+                </div>
+              </MDBCol>
+              <MDBCol>
+                <div className='staff'>
+                  <img className='staff-image' src="/images/Pecuty-2/non-academic-head.jpeg" alt="" />
+                  <h6 className='my-2'>Mrs Tyochir Lois Ngunengen</h6>
+                  <p className='pb-3'>Non Academic Head</p>
+                </div>
+              </MDBCol>
+              <MDBCol>
+                <div className='staff'>
+                  <img className='staff-image' src="/images/Pecuty-2/lawrence.jpeg" alt="" />
+                  <h6 className='my-2'>Mr Vincent Lawrence Onoja</h6>
+                  <p className='pb-3'>School Secretary and I.T Department Officer</p>
+                </div>
+              </MDBCol>
             </MDBRow>
             </MDBContainer>
           </section>

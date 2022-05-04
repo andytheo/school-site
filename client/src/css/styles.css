@@ -256,6 +256,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 .staff-column {
   margin: 0 auto;
   text-align: center;
+  /* margin-right: 30px; */
 }
 
 .staff-image {

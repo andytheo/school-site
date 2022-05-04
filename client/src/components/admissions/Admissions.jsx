@@ -10,7 +10,12 @@ const Admissions = () => {
     <AppNavBar />
     <TransparentHeader
       text="Admission Process"
+      admissionForm="Download Form"
     />
+    <div className='text-center'>
+          <a href='./images/Pecuty-2/admissionForm.pdf' className="text-light rounded" 
+            style={{backgroundColor: "#161E54", textDecoration: "none", padding: 5}} download>Download Form</a>
+    </div>
     <MDBContainer className="mb-5">
     <MDBRow className="container mt-5">
       <MDBCol md='7' className='col-example'>
