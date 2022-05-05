@@ -5,7 +5,10 @@ const Events = () => {
     return (
         <div>
           <section style={{backgroundColor: "#FBFBFB"}}>
-          <p className="text-center py-5 h3 underline">Events</p>
+            <div className='text-center my-4'>
+              <p className="h3 blue-underline">Events</p>
+            </div>
+          
             <div>
 
       <>

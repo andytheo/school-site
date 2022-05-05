@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.63f186f3.chunk.css",
-    "main.js": "/static/js/main.756a0222.chunk.js",
-    "main.js.map": "/static/js/main.756a0222.chunk.js.map",
+    "main.css": "/static/css/main.0a53b028.chunk.css",
+    "main.js": "/static/js/main.fe708a97.chunk.js",
+    "main.js.map": "/static/js/main.fe708a97.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aadacf6e.js",
     "runtime-main.js.map": "/static/js/runtime-main.aadacf6e.js.map",
     "static/css/2.a2bc7d03.chunk.css": "/static/css/2.a2bc7d03.chunk.css",
-    "static/js/2.7d05e768.chunk.js": "/static/js/2.7d05e768.chunk.js",
-    "static/js/2.7d05e768.chunk.js.map": "/static/js/2.7d05e768.chunk.js.map",
+    "static/js/2.2bea9c0b.chunk.js": "/static/js/2.2bea9c0b.chunk.js",
+    "static/js/2.2bea9c0b.chunk.js.map": "/static/js/2.2bea9c0b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a2bc7d03.chunk.css.map": "/static/css/2.a2bc7d03.chunk.css.map",
-    "static/css/main.63f186f3.chunk.css.map": "/static/css/main.63f186f3.chunk.css.map",
-    "static/js/2.7d05e768.chunk.js.LICENSE.txt": "/static/js/2.7d05e768.chunk.js.LICENSE.txt",
+    "static/css/main.0a53b028.chunk.css.map": "/static/css/main.0a53b028.chunk.css.map",
+    "static/js/2.2bea9c0b.chunk.js.LICENSE.txt": "/static/js/2.2bea9c0b.chunk.js.LICENSE.txt",
     "static/media/IMG-20211024-WA0015.68ec534e.jpg": "/static/media/IMG-20211024-WA0015.68ec534e.jpg",
     "static/media/IMG-20211024-WA0018.cfbab5d1.jpg": "/static/media/IMG-20211024-WA0018.cfbab5d1.jpg",
     "static/media/IMG-20211024-WA0022.4e00e1de.jpg": "/static/media/IMG-20211024-WA0022.4e00e1de.jpg",
-    "static/media/IMG-20211024-WA0028.87598e35.jpg": "/static/media/IMG-20211024-WA0028.87598e35.jpg",
-    "static/media/IMG-20211024-WA0034.a582c509.jpg": "/static/media/IMG-20211024-WA0034.a582c509.jpg",
-    "static/media/styles.css": "/static/media/pecuty-royal-logo.b3db2aea.png"
+    "static/media/styles.css": "/static/media/pecuty-royal-logo.b3db2aea.png",
+    "static/media/IMG-20211024-WA0034.a582c509.jpg": "/static/media/IMG-20211024-WA0034.a582c509.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aadacf6e.js",
     "static/css/2.a2bc7d03.chunk.css",
-    "static/js/2.7d05e768.chunk.js",
-    "static/css/main.63f186f3.chunk.css",
-    "static/js/main.756a0222.chunk.js"
+    "static/js/2.2bea9c0b.chunk.js",
+    "static/css/main.0a53b028.chunk.css",
+    "static/js/main.fe708a97.chunk.js"
   ]
 }

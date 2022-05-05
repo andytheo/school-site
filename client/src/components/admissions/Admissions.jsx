@@ -8,14 +8,13 @@ import Footer from '../home/Footer';
 const Admissions = () => {
   return (<div>
     <AppNavBar />
-    <TransparentHeader
-      text="Admission Process"
-      admissionForm="Download Form"
-    />
-    <div className='text-center'>
-          <a href='./images/Pecuty-2/admissionForm.pdf' className="text-light rounded" 
-            style={{backgroundColor: "#161E54", textDecoration: "none", padding: 5}} download>Download Form</a>
-    </div>
+    <div>
+          <div className='p-5 text-center bg-light admission-process'>
+            <h1 className='mb-5 text-light'>Admissions</h1>
+            <a href='./images/Pecuty-2/admissionForm.jpg' download className="text-light rounded" 
+            style={{backgroundColor: "#161E54", textDecoration: "none", padding: 5}}>Download Form</a>
+          </div>
+        </div>
     <MDBContainer className="mb-5">
     <MDBRow className="container mt-5">
       <MDBCol md='7' className='col-example'>

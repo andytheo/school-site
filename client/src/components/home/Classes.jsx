@@ -6,7 +6,9 @@ export default function Classes() {
   return (
     <div  style={{backgroundColor: "#161E54"}} className="pb-5 mt-5">
     <section className="container py-1">
-      <div className="underline text-center text-light h3 mt-5 mb-5">Our classes</div>
+      <div className='text-center'>
+        <div className="h3 text-white mt-5 mb-5 white-underline">Our Classes</div>
+      </div>
       <div data-aos="zoom-out" data-aos-duration="1000">
     <MDBRow className='row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-4 row-cols-xs-12 g-4'>
       <Link to="/creche" className="our-classes">

@@ -3,18 +3,10 @@ import {MDBContainer, MDBRow, MDBCol, MDBTypography} from 'mdb-react-ui-kit';
 
 export default function MissionVision() {
   return (
-    // <MDBRow className="mt-5" style={{
-    //   margin: "0 160px"
-    // }}>
-    //
-    //
-    // <MDBCol md='6' className='col-example p-5 mb-5' style={{
-    //     backgroundColor: "#E6E6E6", height: "500px"
-    //   }}>
 
-    <section className="container">
-      <div className="text-center text-dark h3 mt-4 mb-5 underline">Objectives</div>
-      <MDBContainer className="text-dark" data-aos="fade-up">
+    <section className="container text-center">
+      <div className="text-center text-dark h3 mt-4 mb-5 blue-underline">Objectives</div>
+      <MDBContainer className="text-dark" data-aos="fade-up" style={{textAlign: "justify"}}>
       <MDBRow>
   <MDBCol size='12' xs='10' sm='12' md='6' lg='6' className='col-example mb-3'>
     <p className="text-center h3 mb-3 underline">Mission Statement</p>

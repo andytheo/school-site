@@ -7,7 +7,7 @@ export default function WhyChooseUs() {
 
         {/* <div className="text-center text-dark h3 mt-2 mb-5">Testimonials</div> */}
       <MDBCol md='7' className='pt-5 mb-5 text-light'>
-        <p className="h4 mb-3 px-5 underline">Testimonials</p>
+        <p className="h4 mb-3 mx-4 white-underline">Testimonials</p>
         <MDBCarousel className="ml-5 pl-5">
           <MDBCarouselInner>
             <MDBCarouselItem className='active'>
@@ -47,7 +47,7 @@ export default function WhyChooseUs() {
 
 
       <MDBCol md='5' className='col-example p-5 mb-5'>
-        <p className="text-center h5 mb-3 text-light underline">Why Choose Us?</p>
+        <p className="h5 mb-3 text-light mx-2 white-underline">Why Choose Us?</p>
 
         <MDBAccordion flush initialActive='flush-collapse1'>
           <MDBAccordionItem collapseId='flush-collapse1' headerTitle='Great Teachers'>

@@ -44,14 +44,35 @@ html,body
   margin: 70px auto;
 }
 
-.intro {
+.carousel1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0043.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+.carousel2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0028.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+.carousel3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/cultural3.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+/* .intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0043.jpg");
   background-position: center;
   background-size: cover;
   height: 550px;
   margin-top: 0px;
   background-repeat: no-repeat;
-}
+} */
 
 .our-classes {
   text-decoration: none;
@@ -279,6 +300,40 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 .contact-form {
   margin: 30px auto;
   width: 500px;
+}
+
+.blue-underline {
+    font-weight: 300px;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.blue-underline:before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 3px solid #161E54;
+}
+
+.white-underline {
+    font-weight: 300px;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.white-underline:before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 3px solid #fff;
 }
 
 /* MEDIA QUERIES */

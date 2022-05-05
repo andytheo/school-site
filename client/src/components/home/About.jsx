@@ -8,7 +8,7 @@ export default function About() {
       <MDBContainer className="text-dark">
           <MDBRow className="mb-2 d-flex justify-content-center">
             <MDBCol size='md' data-aos="fade-up" data-aos-duration="1000" className='mx-5 mb-2 col-example lh-lg' style={{width: 500, textAlign: "justify"}}>
-              <h2>About Us</h2>
+              <h2 className='blue-underline'>About Us</h2>
               <p>
                 Pecuty Royal International Academy is a learning institution established in 2017, located
                 in Abuja. Our mission is to provide academic, moral and social education to our students.
