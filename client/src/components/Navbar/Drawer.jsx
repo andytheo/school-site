@@ -17,7 +17,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import LoginIcon from '@mui/icons-material/Login';
 import CallIcon from '@mui/icons-material/Call';
 import {Link} from "react-router-dom";
-
+import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 
 
 const useStyles = makeStyles({
@@ -137,7 +137,7 @@ export default function DrawerComponent() {
 
                  <ListItemButton to='/media' component={Link}>
                   <ListItemIcon>
-                    <CallIcon style={{color: "gold"}}/>
+                    <InsertPhotoIcon style={{color: "gold"}}/>
                   </ListItemIcon>
                   <ListItemText primary="Media" style={{color: "white"}}/>
                 </ListItemButton>

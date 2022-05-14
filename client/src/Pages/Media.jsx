@@ -58,7 +58,20 @@ const getImg = (imgSrc) => {
   return (
     <>
     <AppNavBar />
-    <TransparentHeader text="Pictures" />
+    {/* <TransparentHeader text="Pictures" /> */}
+    <section className="media-top">
+    <h1 className='media-heading'>Media</h1>
+    <hr className='media-hr'/>
+    <nav className='media-css'>
+      <ul>
+        <li><a href="">All</a></li>
+        <li><a href="">Image</a></li>
+        <li><a href="">Audio</a></li>
+        <li><a href="">Video</a></li>
+      </ul>
+    </nav>
+    </section>
+    
     <main className='main-photo-page'>
       <h2 className='green-underline'>Graduation Pictures</h2>
       <section className={modal ? "modal open" : "modal"}>

@@ -1,28 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a53b028.chunk.css",
-    "main.js": "/static/js/main.fe708a97.chunk.js",
-    "main.js.map": "/static/js/main.fe708a97.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.aadacf6e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.aadacf6e.js.map",
-    "static/css/2.a2bc7d03.chunk.css": "/static/css/2.a2bc7d03.chunk.css",
-    "static/js/2.2bea9c0b.chunk.js": "/static/js/2.2bea9c0b.chunk.js",
-    "static/js/2.2bea9c0b.chunk.js.map": "/static/js/2.2bea9c0b.chunk.js.map",
+    "main.css": "/static/css/main.3c0e9132.css",
+    "main.js": "/static/js/main.ee525b00.js",
+    "static/media/pecuty-royal-logo.png": "/static/media/pecuty-royal-logo.b3db2aeab9e6afabc3ab.png",
+    "static/media/IMG-20211024-WA0043.jpg": "/static/media/IMG-20211024-WA0043.efd2c0330bd1c24d21da.jpg",
+    "static/media/IMG-20211024-WA0044.jpg": "/static/media/IMG-20211024-WA0044.6838be95e06d55ec115d.jpg",
+    "static/media/IMG-20211024-WA0018.jpg": "/static/media/IMG-20211024-WA0018.cfbab5d10e8ed578c5b5.jpg",
+    "static/media/IMG-20211024-WA0034.jpg": "/static/media/IMG-20211024-WA0034.a582c509d69edab29f94.jpg",
+    "static/media/IMG-20211024-WA0036.jpg": "/static/media/IMG-20211024-WA0036.75a70d94e53e29a998d8.jpg",
+    "static/media/IMG-20211024-WA0022.jpg": "/static/media/IMG-20211024-WA0022.4e00e1de71ac749f190e.jpg",
+    "static/media/IMG-20211024-WA0028.jpg": "/static/media/IMG-20211024-WA0028.87598e35619227dfb504.jpg",
+    "static/media/IMG-20211024-WA0015.jpg": "/static/media/IMG-20211024-WA0015.68ec534efb817a00b3fa.jpg",
+    "static/media/IMG-20211024-WA0045.jpg": "/static/media/IMG-20211024-WA0045.3274ecbf59fdacffa74a.jpg",
+    "static/media/IMG-20211026-WA0012.jpg": "/static/media/IMG-20211026-WA0012.21b2848be58107377d14.jpg",
+    "static/media/IMG-20211026-WA0002.jpg": "/static/media/IMG-20211026-WA0002.4bcf1d38ebcb2a58586e.jpg",
+    "static/media/cultural3.jpeg": "/static/media/cultural3.8a87587b59f563f25b95.jpeg",
     "index.html": "/index.html",
-    "static/css/2.a2bc7d03.chunk.css.map": "/static/css/2.a2bc7d03.chunk.css.map",
-    "static/css/main.0a53b028.chunk.css.map": "/static/css/main.0a53b028.chunk.css.map",
-    "static/js/2.2bea9c0b.chunk.js.LICENSE.txt": "/static/js/2.2bea9c0b.chunk.js.LICENSE.txt",
-    "static/media/IMG-20211024-WA0015.68ec534e.jpg": "/static/media/IMG-20211024-WA0015.68ec534e.jpg",
-    "static/media/IMG-20211024-WA0018.cfbab5d1.jpg": "/static/media/IMG-20211024-WA0018.cfbab5d1.jpg",
-    "static/media/IMG-20211024-WA0022.4e00e1de.jpg": "/static/media/IMG-20211024-WA0022.4e00e1de.jpg",
-    "static/media/styles.css": "/static/media/pecuty-royal-logo.b3db2aea.png",
-    "static/media/IMG-20211024-WA0034.a582c509.jpg": "/static/media/IMG-20211024-WA0034.a582c509.jpg"
+    "main.3c0e9132.css.map": "/static/css/main.3c0e9132.css.map",
+    "main.ee525b00.js.map": "/static/js/main.ee525b00.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.aadacf6e.js",
-    "static/css/2.a2bc7d03.chunk.css",
-    "static/js/2.2bea9c0b.chunk.js",
-    "static/css/main.0a53b028.chunk.css",
-    "static/js/main.fe708a97.chunk.js"
+    "static/css/main.3c0e9132.css",
+    "static/js/main.ee525b00.js"
   ]
 }

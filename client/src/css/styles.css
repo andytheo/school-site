@@ -232,8 +232,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 /* ANTHEM */
 .main-anthem {
   margin: -30px auto;
-  width: 500px;
-  box-shadow: 1px 0px 3px black;
+  /* width: 500px; */
   background-color: white;
   padding: 15px;
 }
@@ -293,13 +292,12 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
   background-color: white;
   padding: 20px;
   height: 500px;
-  width: 600px;
-  box-shadow: 1px 0px 3px #161E54;
+  /* width: 600px; */
 }
 
 .contact-form {
   margin: 30px auto;
-  width: 500px;
+  /* width: 500px; */
 }
 
 .blue-underline {
@@ -336,6 +334,51 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
     border-bottom: 3px solid #fff;
 }
 
+.media-top {
+  text-align: center;
+}
+
+.media-css {
+  /* text-align: center; */
+}
+
+.media-heading {
+  font-weight: bolder;
+  text-shadow: 3px 3px 2px lightgrey;
+  /* margin-left: 50px; */
+}
+
+.media-css ul {
+  margin-left: -30px;
+}
+
+.media-css ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+}
+
+.media-css ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.media-css ul li a:hover {
+  text-decoration: underline;
+}
+
+.media-hr {
+  width: 50px;
+  margin: 10px auto;
+  color: rgb(53, 2, 2);
+  padding: 1px;
+}
+
+.login-users {
+  border: 1px solid black;
+}
+
+
 /* MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 700px) {
   .centered {
@@ -354,5 +397,28 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
   .background {
   margin: 20px 70px;
 }
+
+  .main-contact {
+  width: 600px;
+  box-shadow: 1px 0px 3px #161E54;
 }
 
+  .main-anthem {
+  width: 500px;
+  box-shadow: 1px 0px 3px black;
+}
+}
+
+@media (max-width: 996px) {
+  .media-css ul li {
+  list-style-type: none;
+  display: block;
+  padding: 5px;
+}
+
+.media-css ul li a:hover {
+  text-decoration: none;
+  padding: 5px 40%;
+  border: 2px solid rgb(53, 2, 2);
+}
+}

@@ -11,7 +11,7 @@ export default function Classes() {
       </div>
       <div data-aos="zoom-out" data-aos-duration="1000">
     <MDBRow className='row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-4 row-cols-xs-12 g-4'>
-      <Link to="/creche" className="our-classes">
+      {/* <Link to="/creche" className="our-classes"> */}
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
@@ -27,9 +27,9 @@ export default function Classes() {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/nursery" className="our-classes">
+    {/* <Link to="/nursery" className="our-classes"> */}
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
@@ -45,9 +45,9 @@ export default function Classes() {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/primary" className="our-classes">
+    {/* <Link to="/primary" className="our-classes"> */}
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
@@ -63,9 +63,9 @@ export default function Classes() {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-    </Link>
+    {/* </Link> */}
 
-    <Link to="/secondary" className="our-classes">
+    {/* <Link to="/secondary" className="our-classes"> */}
       <MDBCol>
         <MDBCard className='h-100'>
           <MDBCardImage
@@ -81,7 +81,7 @@ export default function Classes() {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-    </Link>
+    {/* </Link> */}
     </MDBRow>
     </div>
     </section>

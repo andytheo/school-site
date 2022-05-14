@@ -4,6 +4,7 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 export default function About() {
   return (
+    <>
     <section className="container mb-5" style={{margin: "80px 0"}}>
       <MDBContainer className="text-dark">
           <MDBRow className="mb-2 d-flex justify-content-center">
@@ -27,5 +28,27 @@ export default function About() {
         </MDBRow>
       </MDBContainer>
     </section>
+
+    <hr style={{margin: '0 70px'}}/>
+
+          <section className="container mt-5 mb-5 text-center">
+                <p className="h3 mb-4 blue-underline">Our Core Values</p>
+                <div className="core-values">
+                <ul className='main-values' style={{fontSize: 18}}>
+                  <li>Integrity</li>
+                  <li>Honesty</li>
+                  <li>Nurturing</li>
+                  <li>Excellence</li>
+                  <li>Responsibility</li>
+                  <li>Respect</li>
+                  <li>Innovation</li>
+                  <li>Result Oriented</li>
+                  <li>Leadership</li>
+                  <li>Passion</li>
+                  <li>Teamwork</li>
+                </ul>
+                </div>
+          </section>
+    </>
   );
 }

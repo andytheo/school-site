@@ -79,26 +79,12 @@ const About = () => {
               </MDBCol>
             </MDBRow>
           </section>
-
           <hr style={{margin: '0 70px'}}/>
 
+
           <section className="container mt-5 mb-5 text-center">
-                <p className="h3 mb-4 blue-underline">Our Core Values</p>
-                <div className="core-values">
-                <ul className='main-values' style={{fontSize: 18}}>
-                  <li>Integrity</li>
-                  <li>Honesty</li>
-                  <li>Nurturing</li>
-                  <li>Excellence</li>
-                  <li>Responsibility</li>
-                  <li>Respect</li>
-                  <li>Innovation</li>
-                  <li>Result Oriented</li>
-                  <li>Leadership</li>
-                  <li>Passion</li>
-                  <li>Teamwork</li>
-                </ul>
-                </div>
+                <p className="h3 mb-4 blue-underline">Our Motto</p>
+                <p>KNOWLEDGE & EXCELLENCE</p>
           </section>
 
           <hr style={{margin: '0 70px'}}/>
