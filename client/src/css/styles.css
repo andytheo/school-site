@@ -45,24 +45,24 @@ html,body
 }
 
 .carousel1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0043.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/new-images/image3.jpeg");
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: 600px;
 }
 
 .carousel2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/IMG-20211024-WA0028.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/new-images/image4.jpeg");
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: 600px;
 }
 
 .carousel3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/Pecuty-2/cultural3.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)) , url("../images/new-images/image1.jpeg");
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: 600px;
 }
 
 /* .intro {
@@ -100,11 +100,10 @@ html,body
 /* NAVBAR DROPDOWN */
 
 .dropdown:hover>.dropdown-menu {
-  display: block;
+  /* display: block; */
 }
 
 .dropdown>.dropdown-toggle:active {
-  /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
 
@@ -365,6 +364,11 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(7, 10, 102, 0.8)) , ur
 
 .media-css ul li a:hover {
   text-decoration: underline;
+}
+
+.page-not-found {
+  margin: 200px auto;
+  text-align: center;
 }
 
 .media-hr {

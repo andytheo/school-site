@@ -11,6 +11,7 @@ import Admissions from './Pages/Admissions';
 import Media from './Pages/Media';
 import Anthem from './Pages/Anthem';
 import Portal from './Pages/Portal';
+import PageNotFound from './Pages/PageNotFound'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -38,6 +39,7 @@ function App() {
 
 
         <Route exact path="/portal" element={<Portal/>}/>
+        <Route exact path="*" element={<PageNotFound/>}/>
       </Routes>
     </div>
   );

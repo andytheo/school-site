@@ -1,101 +1,22 @@
-import React, { useState } from 'react';
-import AppNavBar from '../components/Navbar/Nav';
-import TransparentHeader from '../components/props/TransparentHeader';
-import Footer from '../components/home/Footer';
-
-
-import "../css/Gallery.css"
-import "../css/styles.css"
-
-import img1 from '../images/Pecuty-2/IMG-20211024-WA0015.jpg';
-import img2 from '../images/Pecuty-2/IMG-20211024-WA0018.jpg';
-import img3 from '../images/Pecuty-2/IMG-20211024-WA0022.jpg';
-import img4 from '../images/Pecuty-2/IMG-20211024-WA0028.jpg';
-import img5 from '../images/Pecuty-2/IMG-20211024-WA0034.jpg';
-import img6 from '../images/Pecuty-2/IMG-20211024-WA0036.jpg';
-
-import CloseIcon from '@mui/icons-material/Close';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import React from "react";
+import Cultural from "./AllMedia/Cultural";
+import Students from "./AllMedia/Students";
+import Graduation from "./AllMedia/Graduation";
+import AppNavBar from "../components/Navbar/Nav";
+import TransparentHeader from "../components/props/TransparentHeader";
+import Footer from "../components/home/Footer";
 
 const Media = () => {
-
-    let data = [
-        {
-            id: 1,
-            imgSrc: img1
-        },
-        {
-            id: 2,
-            imgSrc: img2
-        },
-        {
-            id: 3,
-            imgSrc: img3
-        },
-        {
-            id: 4,
-            imgSrc: img4
-        },
-        {
-            id: 5,
-            imgSrc: img5
-        },
-        {
-            id: 6,
-            imgSrc: img6
-        }
-]
-
-const [modal, setModal] = useState(false);
-const [tempImgSrc, setTempImgSrc] = useState('');
-
-const getImg = (imgSrc) => {
-  setTempImgSrc(imgSrc);
-  setModal(true);
-}
-
   return (
     <>
-    <AppNavBar />
-    {/* <TransparentHeader text="Pictures" /> */}
-    <section className="media-top">
-    <h1 className='media-heading'>Media</h1>
-    <hr className='media-hr'/>
-    <nav className='media-css'>
-      <ul>
-        <li><a href="">All</a></li>
-        <li><a href="">Image</a></li>
-        <li><a href="">Audio</a></li>
-        <li><a href="">Video</a></li>
-      </ul>
-    </nav>
-    </section>
-    
-    <main className='main-photo-page'>
-      <h2 className='green-underline'>Graduation Pictures</h2>
-      <section className={modal ? "modal open" : "modal"}>
-        <img src={tempImgSrc} alt="Graduation pictures" />
-        <CloseIcon className="closeModal text-white" onClick={() => setModal(false)} />
-        <ArrowForwardIosIcon className='text-white nextPicture'/>
-        <ArrowBackIosNewIcon className='text-white prevPicture' />
-
-      </section>
-      <section className='gallery'>
-        {
-          data.map((item, index) => {
-            return(
-              <div className='pics' key={index} onClick={() => getImg(item.imgSrc)}>
-                <img src={item.imgSrc} style={{width: "100%"}} alt="photos" />
-              </div>
-            )
-          })
-        }
-      </section>
-      </main>
+      <AppNavBar />
+      <TransparentHeader text="Pictures" />
+      <Students />
+      <Graduation />
+      <Cultural />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Media
+export default Media;
