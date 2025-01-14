@@ -88,9 +88,9 @@ const About = () => {
         <p>KNOWLEDGE & EXCELLENCE</p>
       </section>
 
-      <hr style={{ margin: "0 70px" }} />
+      {/* <hr style={{ margin: "0 70px" }} /> */}
       {/* STAFF */}
-      <section className="text-center" id="staff">
+      {/* <section className="text-center" id="staff">
         <h3 className="pt-5 blue-underline">Management & Administrative Staff</h3>
         <MDBContainer className="staff-column">
           <MDBRow data-aos="fade-up" className="row-cols-1 row-cols-md-3 row-cols-sm-8 row-cols-lg-4 row-cols-xs-12 g-4 mt-2">
@@ -124,7 +124,7 @@ const About = () => {
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-      </section>
+      </section> */}
       {/* <section className="text-center">
         <h3 className="text-center pt-5 blue-underline">Administrative Staff</h3>
         <MDBContainer className="pt-3">

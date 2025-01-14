@@ -142,7 +142,7 @@ export default function DrawerComponent() {
                   <ListItemText primary="Media" style={{color: "white"}}/>
                 </ListItemButton>
 
-                <ListItemButton to='/portal' component={Link}>
+                <ListItemButton component="a" href='https://portals.pecutyroyalacademy.com/'>
                   <ListItemIcon>
                     <LoginIcon style={{color: "gold"}}/>
                   </ListItemIcon>

@@ -54,7 +54,7 @@ export default function Nav() {
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink><Link className="text-decoration-none text-dark" to="/portal">PORTAL</Link></MDBNavbarLink>
+              <MDBNavbarLink><a className="text-decoration-none text-dark" href="https://portals.pecutyroyalacademy.com/">PORTAL</a></MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>

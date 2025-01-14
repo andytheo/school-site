@@ -104,10 +104,10 @@ return (
             </Link>
           </li>
           <li className='main-nav-item'>
-            <Link to='/portal' className='main-nav-links'
+            <a href='https://portals.pecutyroyalacademy.com/' className='main-nav-links'
             onClick='{closeMobileMenu}'>
               Portal
-            </Link>
+            </a>
           </li>
         </ul>
             </>
